@@ -26,6 +26,7 @@ header{
 #left_header{
   float: left;
   margin-left: 30px;
+  margin-bottom: 30px;
   cursor: default;
 }
 
@@ -36,7 +37,7 @@ header{
 
 #lagd_av{
   text-align: center;
-  
+
 }
 
 nav{

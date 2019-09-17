@@ -1,0 +1,25 @@
+#container{
+  background: silver;
+  margin: 0 10%;
+  width: 80%;
+  height: 1000px;
+    font-family: arial;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+#article{
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  border: 1px solid;
+}
