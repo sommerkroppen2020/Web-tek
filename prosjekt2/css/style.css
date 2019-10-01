@@ -1,5 +1,5 @@
 #container{
-  background: pink;
+  background: #f2B7D3;
   margin: 0 10%;
   width: 80%;
     font-family: sans-serif;
@@ -41,4 +41,24 @@ footer{
 
 img{
   width: 100%;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table #top{
+
 }
