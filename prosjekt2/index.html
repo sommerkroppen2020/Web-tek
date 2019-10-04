@@ -11,7 +11,7 @@
       <h1>P2 Project requirements</h1>
       <hr>
       <h3>Laget av: André, Sander, Petter, Jenny, Inger</h3>
-      <h4>16. september 2019</h4>
+      <h4>8. oktober 2019</h4>
     </header>
     <main>
       <section>
@@ -32,25 +32,32 @@
                 <h1>Administrative Details:</h1>
                 <hr>
 
-                <p>The name of your client, and his or her position in the
-organization.
-                </p>
+                <div id="Administrative">
+                  <p>Klientens Navn: Reka (Realkameratene FK) <br>
+                    Navn på nettsiden: Reka FK <br>
+                    Kontaktperson: Johannes Padel og Endre Urheim</p>
+                </div>
 
               </section>
               <section>
                 <h1>Purpose, goals, and audience</h1>
                 <hr>
-                <p>A summary paragraph to remind the reader about the purpose, goals, and audience of your website. Make it brief and succinct.</p>
+                <p>Målet med denne nettsiden er at den skal fungere som en plattform for fotballklubben der det skal bli spredd relevant info og nyheter om laget. Målet er en brukervennlig side med alt av nyttig innhold lett tilgjengelig i tillegg til en innbydende layout. Vi skal ha et gjennomgående tema som passer til Realkameratene med hvite og rosa farger. Målgruppen for denne siden er i hovedsak ment for studenter i Trondheim med interesse for studentligaen og Reka, samt familie som ønsker å komme på kamper og se resultatene. Vi ønsker også at nettsiden skal bidra til å få flere til å møte opp på kamp for å støtte laget, gjerne de nye studentene på fysikk og matematikk.</p>
                 </section>
               <section>
                 <h1>Navigation Structure</h1>
                 <hr>
-                <p> ​A brief discussion about the site's navigation structure using the terminology learned in class and the notes on slides “HTML Cont.” in Storyboard and Structures sections (slides:122-129). This is not a sketch of your navbar (or whatever), but instead a map or description of which pages connect to which other pages. (It sometimes better to describe a clique in words than to try to draw it.) The goal is to explain why the choice of a particular structure makes sense for your website.</p>
+                <p> Som navigerings struktur har vi valgt å bruke en “Klikk struktur” (clique structure) Der vi på hovedsiden vil ha en meny som det skal være mulig å navigere seg til alle sidene. Denne hovedmenyen vil også være synlig på alle sidene. Den vil fungere som en roll-over meny der man får flere valg dersom man trykker på hovedkategorien.
+
+Grunnen til at vi valgte denne måten å navigere på er fordi det skal være intuitivt og enkelt for alle å bruke. Det skal også være enkelt å navigere fra de ulike sidene. En annen fordel med denne typen navigering er at man enkelt kan finne det innholdet man ønsker, uten å måtte lete gjennom hele siden.
+</p>
               </section>
               <section>
                 <h1>Page Layout and Appearance</h1>
                 <hr>
-                <p>A description of design decisions that are universal to your site. You should specify in writing the fonts (types and sizes), the color scheme (for text, background, links, shadows, borders, etc.), navbar position in the page and its appearance, banner, footer, the social icons bar, or background images (if any of them is applicable). In addition to the textual description of these elements, you should include a mockup image of this generic page that has only these common elements and no other content. Finally, you should describe how these universal design decisions fulfill certain goals of the website and its audience.</p>
+                <p>Vi skal ha et rosa tema ettersom det passer til reka-logoen og reka-drakta. Vi har valgt nyanser av #F2B7D3 som bakgrunnsfarger. Bak tekst skal vi ha en lys farge for å øke lesbarheten, og vi har valgt #FAE4EF. Tekstfargen skal være mørke nyanser av #B7D3F2 som er i triadisk harmoni med #F2B7D3. Disse står altså i kontrast til hverandre og bør derfor lett å lese teksten. Disse to fargekodene og deres nyanser skal være fargetemaet for hele siden. For at det skal være lett for leseren å se linker bør de være en sterk blåfarge med understrek, ettersom det er det som er mest vanlig og derfor lett gjenkjennelig #finnfarge. Vi vil ha navigasjonsmenyen horisontalt helt øverst på siden, slik at den alltid er enkel å finne. Når man blar nedover på siden skal navigasjonsmenyen bli liggende øverst slik at man slipper å bla til toppen av siden for å finne navigasjonsmenyen. På navigasjonsmeyen skal logoen stå helt til venstre og være link til hjem-siden (index.html).
+I bunn av siden skal vi ha en footer med link-ikoner til facebook- og instagamsiden til reka.
+</p>
               </section>
 
 
@@ -66,61 +73,188 @@ organization.
               <section>
                 <h1>Minimum Requirements</h1>
                 <hr>
-                <p>The website must include four distinct JavaScript applications (for example, rollover effects on images or menus, user-defined functions, form validation, animations, etc.). The four applications must all be different from each other. ​Clearly, indicate how each of you will be fulfilling these minimum requirements.</p>
+
+                <p>Websiden er nødt til å inneholde fire forskjellige javascript applikasjoner, og vi planlegger å få til dette på følgende måte:
+                  <br><br>Petter og André planlegger å implementere følgende:
+                  <hr>
+                  <ol>
+                    <li>En javascript funksjon som skaper et slideshow på forsiden. Dette skal være mange forskjellige bilder fra diverse kamper til fotballklubben.
+                    Dette slideshowet skal være random, og bildet skal dynamisk byttes hvert 10 sekund. Det skal også være mulig å klikke på neste bilde om man synes 10 sekunder er for mye.
+                  Dette vil øke brukerenes nysgjerrighet, og kanskje gi de en ekstra motivasjon til å besøke de andre delene av siden.
+                Bildene som skal vises trenger ikke kun å være fra kamper som Reka FK har spilt, men like gjerne være spillerportretter og evt. bilder fra sosiale sammenhenger der spillerne har vært sammen</li>
+                    <li>En javascript funksjon som øker funksjonaliteten og minsker antall klikk som kreves med en roll over menu. Den fungerer slik at når man holder over et element i navigasjonsbaren,
+                    og de elementene som kan nås direkte herifra vil komme under. Dette vil spesielt være nyttig i kampreferat.html, der man kan gå direkte til et spesifikt kampreferat uten å måtte bla mye nedover.
+                  Dette kan også brukes på spillere.html, der man kan inndele de etter første bokstaven i etternavnet, og sette opp en link direkte til spillere som mest sannsynlig er langt ned på siden fordi de har sent etternavn.
+                </li>
+                </ol>
+                </p>
+                <br>
+                <p>Sander, Jenny og Inger planlegger å implementere følgende:</p>
+                <hr>
+                <ol>
+                  <li>En javascript funksjon som er plassert i om.html. Det den skal gjøre er at når noen bruker "kontakt", så skal det poppe opp et vindu som forteller at Reka FK nå har blitt kontaktet, og at du skal snart få svar.
+                  Vi vet at de ikke kommer til å faktisk bli kontaktet da det krever litt mer backend, men vi kommer her til å fokusere på frontend-delen for å skape en mer realistisk brukeropplevelse.</li>
+                  <li>En javacript funksjon som forandrer språket på alle sidene. Vi skal ha et britisk og et norsk flagg øverst til høyre hjørne, hvor når man trykker på det britiske flagget så skal alt bli til engelsk.
+                  Dette er fordi Realkameratene FK er linjeforeningslaget til Fysikk og matte-studiet, og der går det mange utvekslingsstudenter. Derfor er det svært viktig at vi også når ut til disse gjennom en mulighet for engelsk språk.
+                Vi kunne selvfølgelig ha skrevet alt på engelsk, men vi mener at nettsiden vil nå ut til enda flere og være enda mer attraktiv ved en slik funksjonalitet som dette.</li>
+                </ol>
+                <br>
+                Det er enda en funksjonalitet som vi ønsker å få på plass på siden, men som vi må avgjøre om egentlig er nødvendig. Det er en javascript funksjon som skal fungere inne på spillere.html, og rezise bildene når man holder musen over det respektive bildet.
+                Bildet vil da bli større, og det vil dermed bli enklere å se hvordan spilleren ser ut. Dette vil gi siden litt mer liv, samtidig som bildene ikke kommer til å ta så altfor stor plass på nettsiden i utgangspunktet.
+                <br>
+                <p>I tillegg til dette skal vi lage en javascript funksjon som skal få en reke til å bevege på seg</p>
               </section>
               <section>
                 <h1>Plan</h1>
                 <hr>
-                <p>Provide a clear, specific description of your plan for building the site. Outline the tasks to be accomplished, the deadlines for those tasks, and who is responsible for them. Include a list of files and folders, which will help each partner link to files her partner has built. Include a complete list of everything you need to get from your client (text, pictures, sound, etc.) and when you expect to get them. To the greatest extent you can, try to have all of these things by the time your design is done so that nothing will delay your coding.</p>
+
+                <p>Vi skal følge organisasjonsordningen som er nedenfor til å lage og lagre våre filer og arbeidsdivisjonstabellen for å holde følge med hvem som lager hva og når</p>
+                  <br>
+                <b>Organisasjonsordning</b>
+                <br>
+                <p>Alle de følgende filene vil bli lagret i en folder, og dette vil bli skapt til neste fase av prosjektet</p>
+                <br>
+                <i>Liste med alle filer og folders:</i>
+
+                <ul>
+                  <li>index.html</li>
+                  <li>kamper.html</li>
+                  <li>kampreferat.html</li>
+                  <li>kalender.html</li>
+                  <li>om.html</li>
+                  <li>footer.html</li>
+                  <li>sosialt.html</li>
+                  <li>tabell.html</li>
+                  <li>spillere.html</li>
+                  <li>img/
+                    <ul>
+                      <li>reka_logo.png</li>
+                      <li>faveicon.ico</li>
+                      <li>portrett_1.jpg</li>
+                      <li>portrett_2.jpg</li>
+                      <li>...</li>
+                      <li>portrett_n.jpg</li>
+                      <li></li>
+                    </ul>
+                  </li>
+                  <li>scripts/
+                    <ul>
+                      <li>slideshow.js</li>
+                      <li>popup.js</li>
+                      <li>change_language.js</li>
+                      <li>roll_over_menu.js</li>
+                      <li>rezise_picture.js</li>
+                      <li>logo_wiggle.js</li>
+                    </ul>
+                  </li>
+                  <li>style.css</li>
+
+                </ul>
+
+
 
                 <table>
                   <tr>
-                    <th>Filename</th>
-                    <th>Description</th>
-                    <th>In charge</th>
-                    <th>Deadline</th>
+                    <th>Filnavn</th>
+                    <th>Beskrivelse</th>
+                    <th>Hvem</th>
+                    <th>Tidsfrist</th>
                   </tr>
                   <tr>
                     <td>index.html</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Hjemmesiden til nettsiden</td>
+                    <td>André</td>
+                    <td>25.10.2019</td>
                   </tr>
                   <tr>
                     <td>kamper.html</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>En oversikt over alle kampene til fotballaget.</td>
+                    <td>Petter</td>
+                    <td>27.10.2019</td>
                   </tr>
                   <tr>
                     <td>kampreferat.html</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Her skal alle kampreferatene stå. Først skal det kun være innledning, men man kan trykke på "les mer" og få et lenger referat.</td>
+                    <td>Jenny</td>
+                    <td>27.10.19</td>
                   </tr>
                   <tr>
                     <td>om.html</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>En liten historie om Reka, hvem kontaktpersonene er og hvordan de skal kontaktes.</td>
+                    <td>Sander</td>
+                    <td>27.10.2019</td>
                   </tr>
                   <tr>
                     <td>tabell.html</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>En tabelloversikt fra ligaen som Reka spiller i.</td>
+                    <td>Inger</td>
+                    <td>28.10.2019</td>
                   </tr>
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>spillere.html</td>
+                    <td>En oversikt over alle spillerne på laget med navn, alder, posisjon og bilde.</td>
+                    <td>André og Petter</td>
+                    <td>30.10.2019</td>
                   </tr>
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>kalender.html</td>
+                    <td>En fullstendig oversikt over alle kampene til Reka på kalenderformat.</td>
+                    <td>Sander og Jenny</td>
+                    <td>01.11.2019</td>
+                  </tr>
+                  <tr>
+                    <td>sosialt.html</td>
+                    <td>Oppdateringer om hva som skjer sosialt for Reka, og gjerne også noen bilder.</td>
+                    <td>Inger</td>
+                    <td>02.11.2019</td>
+                  </tr>
+                  <tr>
+                    <td>slideshow.js</td>
+                    <td>En javascript funksjon som lager et slideshow på forsiden.</td>
+                    <td>Jenny</td>
+                    <td>29.10.2019</td>
+                  </tr>
+                  <tr>
+                    <td>popup.js</td>
+                    <td>En javascript funksjon som skaper en pop-up når noen kontakter Reka.</td>
+                    <td>André</td>
+                    <td>01.11.2019</td>
+                  </tr>
+                  <tr>
+                    <td>change_language.js</td>
+                    <td>En javascript funksjon som skaper en knapp som kan trykkes på for å bytte språk.</td>
+                    <td>Inger og Sander</td>
+                    <td>02.11.2019</td>
+                  </tr>
+                  <tr>
+                    <td>roll_over_menu.js</td>
+                    <td>En javascript for en opptrekksmeny.</td>
+                    <td>André og Petter</td>
+                    <td>25.10.2019</td>
+                  </tr>
+                  <tr>
+                    <td>rezise_picture.js</td>
+                    <td>En javascript funksjon for å rezise bildene som musen er over.</td>
+                    <td>Petter</td>
+                    <td>02.11.2019</td>
+                  </tr>
+                  <tr>
+                    <td>logo_wiggle.js</td>
+                    <td>En javascript funksjon som skaper en bevegende reke.</td>
+                    <td>Sander</td>
+                    <td>10.10.2019</td>
+                  </tr>
+                  <tr>
+                    <td>style.css</td>
+                    <td>CSS filen som står for all designet til nettsiden.</td>
+                    <td>Alle</td>
+                    <td>02.11.2019</td>
+                  </tr>
+                  <tr>
+                    <td>Slutt kontroll</td>
+                    <td>Sjekke at all koden, CSS og javascript fungerer som den skal</td>
+                    <td>Alle</td>
+                    <td>10.11.2019</td>
                   </tr>
                 </table>
 
