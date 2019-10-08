@@ -8,7 +8,7 @@
   <body>
     <div id="container">
     <header>
-      <h1>P2 Project requirements</h1>
+      <h1>P2 Project design</h1>
       <hr>
       <h3>Laget av: André, Sander, Petter, Jenny, Inger</h3>
       <h4>8. oktober 2019</h4>
@@ -29,7 +29,7 @@
               </section>
 
               <section>
-                <h1>Administrative Details:</h1>
+                <h1>Administrative detaljer:</h1>
                 <hr>
 
                 <div id="Administrative">
@@ -40,12 +40,12 @@
 
               </section>
               <section>
-                <h1>Purpose, goals, and audience</h1>
+                <h1>Hensikt, mål og målgruppe</h1>
                 <hr>
                 <p>Målet med denne nettsiden er at den skal fungere som en plattform for fotballklubben der det skal bli spredd relevant info og nyheter om laget. Målet er en brukervennlig side med alt av nyttig innhold lett tilgjengelig i tillegg til en innbydende layout. Vi skal ha et gjennomgående tema som passer til Realkameratene med hvite og rosa farger. Målgruppen for denne siden er i hovedsak ment for studenter i Trondheim med interesse for studentligaen og Reka, samt familie som ønsker å komme på kamper og se resultatene. Vi ønsker også at nettsiden skal bidra til å få flere til å møte opp på kamp for å støtte laget, gjerne de nye studentene på fysikk og matematikk.</p>
                 </section>
               <section>
-                <h1>Navigation Structure</h1>
+                <h1>Navigeringsstruktur</h1>
                 <hr>
                 <p> Som navigerings struktur har vi valgt å bruke en “Klikk struktur” (clique structure) Der vi på hovedsiden vil ha en meny som det skal være mulig å navigere seg til alle sidene. Denne hovedmenyen vil også være synlig på alle sidene. Den vil fungere som en roll-over meny der man får flere valg dersom man trykker på hovedkategorien.
 
@@ -53,7 +53,7 @@ Grunnen til at vi valgte denne måten å navigere på er fordi det skal være in
 </p>
               </section>
               <section>
-                <h1>Page Layout and Appearance</h1>
+                <h1>Layout og utseende</h1>
                 <hr>
                 <p>Vi skal ha et rosa tema ettersom det passer til reka-logoen og reka-drakta. Vi har valgt nyanser av #F2B7D3 som bakgrunnsfarger. Bak tekst skal vi ha en lys farge for å øke lesbarheten, og vi har valgt #FAE4EF. Tekstfargen skal være mørke nyanser av #B7D3F2 som er i triadisk harmoni med #F2B7D3. Disse står altså i kontrast til hverandre og bør derfor lett å lese teksten. Disse to fargekodene og deres nyanser skal være fargetemaet for hele siden. For at det skal være lett for leseren å se linker bør de være en sterk blåfarge med understrek, ettersom det er det som er mest vanlig og derfor lett gjenkjennelig #finnfarge. Vi vil ha navigasjonsmenyen horisontalt helt øverst på siden, slik at den alltid er enkel å finne. Når man blar nedover på siden skal navigasjonsmenyen bli liggende øverst slik at man slipper å bla til toppen av siden for å finne navigasjonsmenyen. På navigasjonsmeyen skal logoen stå helt til venstre og være link til hjem-siden (index.html).
 I bunn av siden skal vi ha en footer med link-ikoner til facebook- og instagamsiden til reka.
@@ -62,16 +62,58 @@ I bunn av siden skal vi ha en footer med link-ikoner til facebook- og instagamsi
 
 
               <section>
-                <h1>Content</h1>
+                <h1>Innhold</h1>
                 <hr>
-                <p>This is the longest section of your document. For every page, you will need to give a text description of the content of the page as well as an image of the mockup of the page. The text describes what goal(s) this page fulfills, and how design decisions specific to it contribute to fulfilling such goals. The reason why you should describe the content is that you might not have yet received the actual content from the client and in your mockup of the page, you will be using fake text, fake images, etc. While the content can be fake, you should try to use meaningful headings and captions to convey its meaning. Finally, you should describe the design decisions that are unique for this particular page (if any).</p>
-                <p>
-                  <b>Examples:</b>
-                  <i>Images of e-board members are stored as thumbnails to reduce the loading time of the page. They appear in a grid format on the left side of the page. Each thumbnail is of size 150x150. When clicked, they will open as larger images (320x480) on the right side of the page, surrounded by text describing the member's duties and reasons for joining the org. The chosen thumbnail will have a surrounding border in gray color, to provide visual feedback to the user for the selected content.</i>
-                </p>
+                <ol type='1'>
+                  <li>
+                    <h2>Generelt</h2>
+                    <p>På alle deler av nettsiden vil det være en header som inneholder reka-logoen og en meny med direkte lenker til de ulike sidene som listes opp under. I tillegg skal det alltid være en footer nederst på siden med kontaktinfo og lenker til Reka sine sosiale mediekanaler i form av ikoner for de respektive sosiale mediene. Disse elementene er med for å gjøre nettstedet oversiktlig og brukervennlig, noe klienten er svært opptatt av. De fleste sidene kommer til å inneholde noen bilder. Disse kommer til å forminskes i forhold til lagringsplass, slik at sidene lastes inn fortere. Alternativt kan de lagres som thumbnails om sidene lastes for tregt, men siden ingen sider vil ha veldig mange bilder blir dette antagelig ikke nødvendig.</p>
+                  </li>
+                  <li>
+                    <h2>Hjemmeside</h2>
+                    <p>Det første som kommer opp når man går inn på Rekafk.no vil være hjemmesiden. I tillegg er den alltid tilgjengelig ved å trykke på ikonet til venstre i menyen. På hjemmesiden kommer det til å være en bildevisning som rullerer sekvensielt over skjermen med utvalgte bilder fra klienten. Vi vil bruke Javascript for å få til dette. Under bildene står de siste eller mest interessante oppdateringene fra laget. Hjemmesiden vil holdes enkel, med lite tekst for ikke å overvelde nye besøkende. I stedet for mye tekst vil det under siste nytt oppmuntres til å utforske nettsiden og spesielt sjekke ut sosialsiden for å bli medlem av Reka Fanclub. Bildevisningen vil ha samme bredde som menyen med de andre elementene plasser ved siden av hverandre som vist på bildet. Hjemmesiden er designet for å appellere til et ungt publikum ved at det er lite tekst og heller fokus på det visuelle. Dermed hjelper det å tiltrekke nye fans og overlater mer utfyllende informasjon til de andre delene av nettstedet. </p>
+                    <img src='img/hjemmeside.jpg'>
+                  </li>
+                  <li>
+                    <h2>Om oss</h2>
+                    <p>Om oss siden inneholder tekst og bilder i form av en artikkel som går gjennom Rekas historie og tradisjonsrike kultur. Klienten kommer selv til å lage innholdet som ønskes på denne siden, som deretter formateres av oss til å passe inn med det gjennomgående temaet til nettsiden. Under artikkelen vil det (ved behov) legges ved en “ofte stilte spørsmål” seksjon etter hvert som spørsmål kommer inn. Med denne siden jobber vi mot målet om å tilby all nødvendig og ettertraktet informasjon som ikke inngår i noen av de andre sidene. Artikkelen på siden kommer til å være
+humoristisk og ha passende bilder for å gjøre laget enda mer attraktivt for spesielt interesserte lesere.
+</p>
+                    <img src='img/omoss.jpg'>
+                  </li>
+                  <li>
+                    <h2>Kamper</h2>
+                    <p>Denne siden vil i rollover-menyen være delt inn i to seksjoner: Kalender med kommende kamper og kampreferater fra tidligere kamper. Kalendersiden kommer til å være veldig simpel, uten noe unødvendig innhold. Kommende kamper vil være listet under hverandre i kronologisk rekkefølge med uthevet dato. Annen informasjon som listes opp etter datoen vil være tidspunkt, sted og motstander. I tillegg vil eventuelle sosiale events ligge i kalenderen med lenke til “Sosialt” siden. Under 	kampreferater brukes en vertikal grid-layout med nyligste kamper øverst. Til venstre ligger et bilde fra kampen, med overskrift og kort sammendrag av kampreferatet ved siden av. Ved å trykke på overskriften kommer man til en egen html-fil med referatet som kommer fra lagets referent etter hver kamp. Hvert kampreferat vil ha samme layout for å kunne postes på nettsiden så fort som mulig. Denne layouten innebærer et større bilde oppe i venstre hjørne, men overskrift og tekst til høyre, som fortsetter under avhengig av lengden på det innsendte referatet. “Kamper” siden er basert på klientens ønske om at informasjon skal oppdateres så fort som mulig og være lett å finne fram til på siden.
+</p>
+                    <img src='img/kalender.jpg'>
+                    <img src='img/referater.jpg'>
+                  </li>
+                  <li>
+                    <h2>Tabell</h2>
+                    <p>Tabellen som vises på denne siden vil være tilsvarende tabellen som publiseres og oppdateres fortløpende på TSSF sine sider. Formatet vil likne på denne, men justeres til å passe med vår fargekode og struktur. Reka skal være uthevet for å lett se deres plassering, og de andre lagnavnene skal inneholde lenker til deres respektive facebook/hjemmesider som åpnes i et nytt vindu. For mer informasjon om toppscorerlister og lignende vil det være lenke til TSSF sin hjemmeside under tabellen, der all denne typen informasjon finnes. Denne lenken åpnes også i nytt vindu. Tabellsiden bygger videre på klientens ønsker om lett tilgjengelig informasjon, uten masse unødvendig tekst.</p>
+                    <img src='img/tabell.jpg'>
+                  </li>
+                  <li>
+                    <h2>Laget</h2>
+                    <p>Laget tar i bruk en liknende struktur som kampreferatene.Når man holder musa over “laget” i menyen skal det vises “spillere” og en “stab”. Trykker man på spillere vil man se til venstre er et portrett av spilleren og ved siden av står grunnleggende informasjon som navn, alder og posisjon, etterfulgt av en kort tekst om spilleren. Spillerprofilene blir såpass korte at det ikke blir nødvendig å lage en egen side per spiller. I stedet er de plassert under hverandre i alfabetisk rekkefølge med et lite mellomrom før hver spiller for å gjøre det mer oversiktlig. Lignende profiler vil også være der for trener, økonomisjef, lagleder og fanklubb-sjef.  Siden skal hjelpe å øke interessen blant bekjente av spillerne, samtidig som den gjør det ekstra stas for spillerne selv når de kan se sin egen spillerprofil på nett.
+</p>
+                    <img src='img/spillere.jpg'>
+                    <img src='img/stab.jpg'>
+                  </li>
+                  <li>
+                    <h2>Sosialt</h2>
+                    <p>Her kommer den viktigste siden for rekruttering av nye fans. Når man går inn på sosialt er det første leseren ser et firkantet popup-vindu i midten av skjermen som ber deg melde deg inn i fanklubben (og hvordan det gjøres). Vinduet skal være stort nok til å dekke over resten av innholdet på siden. Når det lukkes inneholder siden tre elementer satt opp ved siden av hverandre. Det første skal være “Fanklubb” der man vet trykk kommer inn på en side med mer utfyllende info om fanklubben. Deretter står “Rekickoff” som er en annen side med info om lagets kickoff som finner sted hver sjette måned. Til slutt kommer “Regalla” med en liknende side om gallaen som finner sted i slutten av hver sesong. Hvert element vil inneholde et bilde øverst, overskrift og en kort beskrivelse for å få folk til å klikke seg videre. Hovedfokuset her er å virkelig få folk til å ville være med på det sosiale livet til Reka. Alle fordelene med å være med i fanklubben skal komme tydelig fram i teksten, og arrangementbeskrivelsene skal være svært reklamerende med samme type layout som kampreferatene. Her er det viktig å skaffe gode bilder som får fram stemningen med laget.</p>
+                    <img src='img/sosialt.jpg'>
+                  </li>
+                  <li>
+                    <h2>Kontakt</h2>
+                    <p>Kontakt delen av menyen er ikke lenket til en egen side, men åpner heller et annet popup-vindu i samme stil som det beskrevet over. I vinduet står lagets kontaktinformasjon, i tillegg til en rute under som kan fylles inn og sende mail direkte til laglederen. Denne funksjonen vil hjelpe med å oppdatere “Ofte stilte spørsmål” seksjonen og tilgjengeliggjøre sjefene for laget. Kommunikasjon er viktig både for klienten og for potensielle nye medlemmer.
+</p>
+                  </li>
+
               </section>
               <section>
-                <h1>Minimum Requirements</h1>
+                <h1>Minstekrav</h1>
                 <hr>
 
                 <p>Websiden er nødt til å inneholde fire forskjellige javascript applikasjoner, og vi planlegger å få til dette på følgende måte:
@@ -233,7 +275,7 @@ I bunn av siden skal vi ha en footer med link-ikoner til facebook- og instagamsi
                     <td>25.10.2019</td>
                   </tr>
                   <tr>
-                    <td>rezise_picture.js</td>
+                    <td>resize_picture.js</td>
                     <td>En javascript funksjon for å rezise bildene som musen er over.</td>
                     <td>Petter</td>
                     <td>02.11.2019</td>
