@@ -21,7 +21,18 @@ h1{
   margin-bottom: 20px;
 }
 
+h2{
+  text-align: center;
+}
+
 section{
+  border: 1px solid;
+  padding: 40px;
+  padding-left: 50px;
+  margin: 40px;
+}
+
+main{
   border: 1px solid;
   padding: 40px;
   padding-left: 50px;
