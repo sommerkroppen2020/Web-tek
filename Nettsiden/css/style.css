@@ -1,0 +1,118 @@
+
+
+
+body{
+  width: 87%;
+  margin: 0 6.5%;
+}
+
+header{
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2{
+}
+
+#container{
+  background: pink;
+  margin: 0 auto;
+  width: 100%;
+    font-family: arial;
+}
+
+header{
+  background: url(../img/raffa.jpg);
+  width: 100%;
+  color: black;
+}
+
+#lagd_av{
+  text-align: center;
+
+}
+
+nav{
+  float: center;
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+nav ul{
+    background: pink;
+}
+nav ul li{
+  float: left;
+  padding: 20px 30px;
+  font-size: 40px;
+  margin: 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav a{
+  color: black;
+}
+
+#nav{
+  width: 100%;
+}
+
+#slideshow{
+  float: center;
+  width: 80%;
+  height: auto;
+  padding: 0 10%;
+}
+
+#Oppdateringer li{
+
+}
+
+/*Her kommer CSS fra spillere.html*/
+#spillerel{
+  float: left;
+  width: 40%;
+}
+
+#spillereh{
+  float: right;
+  width: 40%;
+}
+
+#spiller{
+  border: 20px solid black;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+section{
+  padding: 0 5%;
+}
+  section h2{
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 5px 2px black;
+
+  }
