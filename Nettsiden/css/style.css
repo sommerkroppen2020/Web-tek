@@ -70,7 +70,10 @@ nav a{
   color: black;
 }
 
-
+#nav{
+  width: 100%;
+  background-color: pink;
+}
 
 #slideshow{
   float: center;
@@ -114,10 +117,6 @@ section{
 
   }
 
-#nav{
-  width: 100%;
-  background-color: pink;
-}
 
 /*CSS til slideshow på index.html*/
 /* Mye hentet fra https://www.w3schools.com/howto/howto_js_slideshow.asp*/
