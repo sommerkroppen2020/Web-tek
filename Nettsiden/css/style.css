@@ -2,8 +2,7 @@
 
 
 body{
-  width: 87%;
-  margin: 0 6.5%;
+  width: 100%;
 }
 
 header{
@@ -71,10 +70,7 @@ nav a{
   color: black;
 }
 
-#nav{
-  width: 100%;
-  background-color: pink;
-}
+
 
 #slideshow{
   float: center;
@@ -118,6 +114,10 @@ section{
 
   }
 
+#nav{
+  width: 100%;
+  background-color: pink;
+}
 
 /*CSS til slideshow på index.html*/
 /* Mye hentet fra https://www.w3schools.com/howto/howto_js_slideshow.asp*/
@@ -154,4 +154,3 @@ section{
 
 .active, .dot:hover {
   background-color: #717171;
-}
