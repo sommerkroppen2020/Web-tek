@@ -21,7 +21,7 @@ h1{
 h2{
 }
 
-#header_container{
+#container{
   background: pink;
   margin: 0 auto;
   width: 100%;
@@ -124,7 +124,7 @@ section{
 .slideshow-container {
   float: center;
   width: 80%;
-  height: 700px;
+  height: 800px;
   padding: 0 10%;
 }
 
@@ -153,3 +153,23 @@ section{
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+
+/*kalender.html*/
+#kalender_container {
+  background-color: pink;
+}
+
+#kalender_tabell {
+  float:left;
+  width: 60%;
+  margin-left: 5%;
+  background-color: pink;
+}
+
+#kalender_sosialt {
+  float: right;
+  margin-right: 5%;
+  width: 15%;
+}
