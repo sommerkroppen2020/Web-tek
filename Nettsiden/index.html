@@ -32,9 +32,41 @@
       <section>
         <h2>Realkameratene FK</h2><hr>
       </section>
-      <div id="image" width="50%" height="50%">
-        <img src="img/lagbilde.jpg" alt="Bilde av laget" id=slideshow>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="img/vors2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/lagbilde.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/skytePaaRompa.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/vors.png" style="width:100%">
+        </div>
       </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+
+
+
+      <!---<div id="image" width="50%" height="50%">
+        <img src="img/lagbilde.jpg" alt="Bilde av laget" id=slideshow>
+      </div>--->
 
       <div id="Oppdateringer">
         <p>
@@ -52,8 +84,8 @@
 
     </footer>
     </div>
-    <script src="js/sticky_navbar.js">
+    <script src="js/slideshow.js"></script>
+    <script src="js/sticky_navbar.js"></script>
 
-    </script>
   </body>
 </html>
