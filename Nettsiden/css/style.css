@@ -2,8 +2,7 @@
 
 
 body{
-  width: 87%;
-  margin: 0 6.5%;
+  width: 100%;
 }
 
 header{
@@ -71,10 +70,7 @@ nav a{
   color: black;
 }
 
-#nav{
-  width: 100%;
-  background-color: pink;
-}
+
 
 #slideshow{
   float: center;
@@ -117,3 +113,8 @@ section{
     text-shadow: 1px 5px 2px black;
 
   }
+
+#nav{
+  width: 100%;
+  background-color: pink;
+}
