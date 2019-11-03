@@ -3,6 +3,7 @@
 
 body{
   width: 100%;
+  background-color: pink;
 }
 
 header{
@@ -157,19 +158,18 @@ section{
 
 
 /*kalender.html*/
-#kalender_container {
-  background-color: pink;
-}
-
 #kalender_tabell {
   float:left;
   width: 60%;
   margin-left: 5%;
-  background-color: pink;
 }
 
 #kalender_sosialt {
   float: right;
   margin-right: 5%;
   width: 15%;
+}
+
+table {
+  font-family: arial;
 }
