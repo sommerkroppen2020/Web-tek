@@ -175,3 +175,37 @@ table {
   text-align: left;
   font-size: 17px;
 }
+
+
+/*kampreferat.html*/
+#kampreferat_container {
+  width: 80%;
+  margin-left: 10%
+}
+
+.kampreferat_bilde_container {
+  float: left;
+  width: 40%;
+  position: relative;
+}
+
+.kampreferat_bilde {
+  width: 200px;
+  position: relative;
+  margin: 20px;
+}
+
+.kampreferat_tekst {
+  float: right;
+  width: 60%;
+  position: relative;
+}
+
+.kamreferat_innhold {
+  position: relative;
+  margin: 10px;
+}
+
+#more1,#more2 {
+  display: none;
+}
