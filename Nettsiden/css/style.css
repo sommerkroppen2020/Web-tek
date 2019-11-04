@@ -180,30 +180,28 @@ table {
 /*kampreferat.html*/
 #kampreferat_container {
   width: 80%;
-  margin-left: 10%
+  margin-left: 10%;
+}
+
+.kampreferat_innhold {
+  display: flex;
+  margin: 10px;
+  width: 100%;
 }
 
 .kampreferat_bilde_container {
-  float: left;
-  width: 40%;
-  position: relative;
+  height: 100%;
 }
 
 .kampreferat_bilde {
   width: 200px;
   position: relative;
   margin: 20px;
+  z-index: 0;
 }
 
 .kampreferat_tekst {
-  float: right;
-  width: 60%;
-  position: relative;
-}
-
-.kamreferat_innhold {
-  position: relative;
-  margin: 10px;
+  height: 100%;
 }
 
 #more1,#more2 {
