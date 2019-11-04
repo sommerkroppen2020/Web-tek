@@ -4,6 +4,7 @@
 body{
   width: 100%;
   background-color: pink;
+  z-index: 1;
 }
 
 header{
@@ -43,7 +44,10 @@ header{
 nav{
   float: center;
   width: 100%;
+  z-index: 2;
+  border-top: 2px solid black;
 }
+
 
 .sticky {
   position: fixed;
@@ -71,11 +75,6 @@ nav a{
   color: black;
 }
 
-#nav{
-  width: 100%;
-  background-color: pink;
-}
-
 #slideshow{
   float: center;
   width: 80%;
@@ -88,21 +87,37 @@ nav a{
 }
 
 /*Her kommer CSS fra spillere.html*/
+
+.spillere{
+  width: 90%;
+  margin: 5px;
+  border: 2px solid black;
+}
+
 #spillerel{
   float: left;
-  width: 40%;
+  max-width: 40%;
 }
 
 #spillereh{
   float: right;
-  width: 40%;
+  margin-right: 40%;
+  max-width: 40%;
 }
 
 #spiller{
-  border: 20px solid black;
   margin: 10px;
   padding: 5px;
   text-align: center;
+  border: 2px solid black;
+}
+
+#spiller p {
+  float: right;
+}
+
+#spiller img{
+  float: left;
 }
 
 
@@ -182,7 +197,7 @@ table {
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
-  position: fixed;
+  position: absolute;
   bottom, top: 40%;
   border: 3px solid black;
 }

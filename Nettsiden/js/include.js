@@ -1,9 +1,25 @@
+
+
+
+
 const navbar_content = <div id="nav">\
       <nav>\
         <ul style="list-style: none;">\
-          <li><a href="kamper.html">Kamper</a></li>\
+        <li class='dropdown'>\
+          <a href='javascript:void(0)' class='dropdown-button'>Kamper</a>\
+          <div class='dropdown-content card'>\
+            <a href='kalender.html'>Kalender</a>\
+            <a href='kamper.html'>Referater</a>\
+          </div>\
+        </li>\
           <li><a href="tabell.html">Tabell</a></li>\
-          <li><a href="spillere.html">Laget</a></li>\
+          <li class='dropdown'>\
+            <a href='javascript:void(0)' class='dropdown-button'>Laget</a>\
+            <div class='dropdown-content card'>\
+              <a href='spillere.html'>Spillere</a>\
+              <a href='stab.html'>Stab</a>\
+            </div>\
+          </li>\
           <li><a href="Sosialt.html">Sosialt</a></li>\
           <li onclick="openForm()">Kontakt\
             <div class="form-popup" id="myForm">\
@@ -31,6 +47,7 @@ const navbar_content = <div id="nav">\
         </ul>\
       </nav>\
     </div>;
+
 
 /* Save the footer content in a constant */
 const footer_content = '<footer id="footer">\

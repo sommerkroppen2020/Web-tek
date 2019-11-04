@@ -8,39 +8,130 @@
 
 <!-- ser for meg at alle spillere skal være i bokser nedover, og det skal være 2 kolonner med spillere-->
   <body>
-    <div class="content">
-      <div class="spillerel">
-        <div class="spiller">
-
-        </div>
-        <div class="spiller">
-          <p><b>Alder:</b></p>
-        </div>
-        <div class="spiller">
-
-        </div>
-        <div class="spiller">
-
-        </div>
-        <div class="spiller">
-
-        </div>
-
+    <header>
+      <div id="header">
+        <a href="index.html"><img src="img/reka.png" alt="" id="logo"></a>
       </div>
-      <div class="spillereh">
-        <div class="spiller">
+    </header>
 
-        </div>
-        <div class="spiller">
-          <p><b>Alder:</b></p>
-        </div>
-        <div class="spiller">
+    <div id="navbar_content">En feil har skjedd, vennligst last inn siden på nytt.</div>
+      <div id="nav">
+          <nav>
+            <ul style="list-style: none;">
+            <li class='dropdown'>
+              <a href='javascript:void(0)' class='dropdown-button' onclick="myFunction()">Kamper</a>
+              <div class='dropdown-content card' class="myDropdown">
+                <a href='kalender.html'>Kalender</a>
+                <a href='kampreferat.html'>Referater</a>
+              </div>
+            </li>
+              <li><a href="tabell.html">Tabell</a></li>
+              <li class='dropdown'>
+                <a href='javascript:void(0)' class='dropdown-button' onclick="myFunction()">Laget</a>
+                <div class='dropdown-content card' class="myDropdown">
+                  <a href='spillere.html'>Spillere</a>
+                  <a href='stab.html'>Stab</a>
+                </div>
+              </li>
+              <li><a href="Sosialt.html">Sosialt</a></li>
+              <li onclick="openForm()">Kontakt
+                <div class="form-popup" id="myForm">
+                  <form class="form-container" action="javascript:void(0);">
+                    <p onclick="closeForm()" class="close-btn">&times;</p>
+                    <h1>Send mail!</h1>
 
-        </div>
-        <div class="spiller">
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Skriv Email" name="email" required>
+                    <br>
 
+                    <label><b>Navn</b></label>
+                    <input type="text" placeholder="Skriv navn" name="text" required>
+                    <br>
+
+                    <label><b>Hvem er du?</b></label>
+                    <input type="text" placeholder="Skriv litt om hvorfor du tar kontakt..." name="tekst">
+                    <br>
+
+                    <button type="submit" class="btn">Send inn</button>
+                  </form>
+                </div>
+              </li>
+              <li><a href="om.html">Om oss</a></li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </div>
+    <main>
+      <br>
+      <br>
+      <section id="spillere">
+        <h2>Her kommer en liste over alle spillere!</h2>
+        <div class="content">
+          <div class="spillerel">
+            <div class="spiller">
+
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+
+          </div>
+          <div class="spillereh">
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+            <div class="spiller">
+              <img src="lagbilde.jpg" alt="">
+              <p><b>Navn: </b></p>
+              <p><b>Alder: </b></p>
+              <p><b>Posisjon: </b></p>
+              <p><b>Beskrivelse: </b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
