@@ -1,0 +1,269 @@
+
+
+
+body{
+  width: 100%;
+  background-color: black;
+}
+
+header{
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2{
+}
+
+#container{
+  background: pink;
+  margin: 0 auto;
+  width: 100%;
+    font-family: arial;
+}
+
+header{
+  background: url(../img/raffa.jpg);
+  width: 100%;
+  color: pink;
+}
+
+#lagd_av{
+  text-align: center;
+
+}
+
+nav{
+  float: center;
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+nav ul{
+    background: pink;
+}
+nav ul li{
+  float: left;
+  padding: 20px 10px;
+  font-size: 35px;
+  margin: 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav a{
+  color: pink;
+}
+
+#nav{
+  width: 100%;
+  background-color: pink;
+}
+
+#slideshow{
+  float: center;
+  width: 80%;
+  height: auto;
+  padding: 0 10%;
+}
+
+#Oppdateringer li{
+
+}
+
+/*Her kommer CSS fra spillere.html*/
+#spillerel{
+  float: left;
+  width: 40%;
+}
+
+#spillereh{
+  float: right;
+  width: 40%;
+}
+
+#spiller{
+  border: 20px solid black;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+section{
+  padding: 0 5%;
+}
+  section h2{
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    color: pink;
+    text-shadow: 1px 5px 2px black;
+
+  }
+
+
+/*CSS til slideshow på index.html*/
+/* Mye hentet fra https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+/* Slideshow container */
+.slideshow-container {
+  float: center;
+  width: 80%;
+  height: 800px;
+  padding: 0 10%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/*kalender.html*/
+#kalender_tabell {
+  float:left;
+  width: 60%;
+  margin-left: 5%;
+}
+
+#kalender_sosialt {
+  float: right;
+  margin-right: 5%;
+  width: 15%;
+}
+
+table {
+  font-family: arial;
+  text-align: left;
+  font-size: 17px;
+}
+
+/*For pop_up'ene når folk skal melde seg inn i Reka-Fanclub*/
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom, top: 40%;
+  border: 3px solid black;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  width: 100%;
+  background-color: pink;
+}
+
+.form-container input[type=text], .form-container input[type=email]{
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.close-btn {
+  float: right;
+  color: lightgray;
+  font-size: 24px;
+  font-weight: bold;
+}
+.close-btn:hover {
+  color: darkgray;
+}
+
+
+/*kampreferat.html*/
+#kampreferat_container {
+  width: 80%;
+  margin-left: 10%
+}
+
+.kampreferat_bilde_container {
+  float: left;
+  width: 40%;
+  position: relative;
+}
+
+.kampreferat_bilde {
+  width: 200px;
+  position: relative;
+  margin: 20px;
+}
+
+.kampreferat_tekst {
+  float: right;
+  width: 60%;
+  position: relative;
+}
+
+.kamreferat_innhold {
+  position: relative;
+  margin: 10px;
+}
+
+#more1,#more2 {
+  display: none;
+}
