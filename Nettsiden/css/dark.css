@@ -3,7 +3,7 @@
 
 body{
   width: 100%;
-  background-color: pink;
+  background-color: black;
 }
 
 header{
@@ -32,7 +32,7 @@ h2{
 header{
   background: url(../img/raffa.jpg);
   width: 100%;
-  color: black;
+  color: pink;
 }
 
 #lagd_av{
@@ -68,7 +68,7 @@ nav ul li{
 }
 
 nav a{
-  color: black;
+  color: pink;
 }
 
 #nav{
@@ -113,7 +113,7 @@ section{
     text-align: center;
     font-size: 60px;
     padding: 40px;
-    color: white;
+    color: pink;
     text-shadow: 1px 5px 2px black;
 
   }
@@ -238,28 +238,30 @@ table {
 /*kampreferat.html*/
 #kampreferat_container {
   width: 80%;
-  margin-left: 10%;
-}
-
-.kampreferat_innhold {
-  display: flex;
-  margin: 10px;
-  width: 100%;
+  margin-left: 10%
 }
 
 .kampreferat_bilde_container {
-  height: 100%;
+  float: left;
+  width: 40%;
+  position: relative;
 }
 
 .kampreferat_bilde {
   width: 200px;
   position: relative;
   margin: 20px;
-  z-index: 0;
 }
 
 .kampreferat_tekst {
-  height: 100%;
+  float: right;
+  width: 60%;
+  position: relative;
+}
+
+.kamreferat_innhold {
+  position: relative;
+  margin: 10px;
 }
 
 #more1,#more2 {
