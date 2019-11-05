@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <meta charset="UTF-8">
+      <title>Realkameratene FK</title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<!-- ser for meg at alle spillere skal være i bokser nedover, og det skal være 2 kolonner med spillere-->
+  <body>
+    <header>
+      <div id="header">
+        <a href="index.html"><img src="img/reka.png" alt="" id="logo"></a>
+      </div>
+    </header>
+
+    <div id="navbar_content">En feil har skjedd, vennligst last inn siden på nytt.</div>
+      <div id="nav">
+          <nav>
+            <ul style="list-style: none;">
+            <li class='dropdown'>
+              <a href='javascript:void(0)' class='dropdown-button' onclick="myFunction()">Kamper</a>
+              <div class='dropdown-content card' class="myDropdown">
+                <a href='kalender.html'>Kalender</a>
+                <a href='kampreferat.html'>Referater</a>
+              </div>
+            </li>
+              <li><a href="tabell.html">Tabell</a></li>
+              <li class='dropdown'>
+                <a href='javascript:void(0)' class='dropdown-button' onclick="myFunction()">Laget</a>
+                <div class='dropdown-content card' class="myDropdown">
+                  <a href='spillere.html'>Spillere</a>
+                  <a href='stab.html'>Stab</a>
+                </div>
+              </li>
+              <li><a href="sosialt.html">Sosialt</a></li>
+              <li><a href="kontakt.html">Sosialt</a></li>
+              <li><a href="om.html">Om oss</a></li>
+            </ul>
+          </nav>
+        </div>
+    <main>
+      <br>
+      <br>
+      <section id="spillere">
+        <h2>Her kommer en liste over alle spillere!</h2>
+        <div class="content">
+          <section class="spillerel">
+            <div class="spiller">
+              <img src="img/padel.png" alt="Dette er et bilde av Padel" onmouseover="large(this)" onmouseout="tilbake(this)">
+              <p><b>Navn: </b>Johannes Padel</p>
+              <p><b>Alder: </b>21</p>
+              <p><b>Posisjon: </b>Hovedtrener</p>
+              <p><b>Beskrivelse: </b>En utrolig dyktig trener som for øyeblikket er skadet. Gir alt for laget.</p>
+            </div>
+            <div class="spiller">
+              <img src="img/endre.png" alt="Dette er et bilde av Edvard" onmouseover="large(this)" onmouseout="tilbake(this)">
+              <p><b>Navn: </b>Endre Urheim</p>
+              <p><b>Alder: </b>22</p>
+              <p><b>Posisjon: </b>Lagleder og midtbanespiller</p>
+              <p><b>Beskrivelse: </b>Raske vendinger og godt overblikk. Han vet hva som er best for laget. I tillegg gjør han alt administrativt for Reka FK.</p><br>
+            </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/resize_pic.js"></script>
+  </body>
+</html>

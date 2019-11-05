@@ -46,12 +46,6 @@ header{
 
 }
 
-nav{
-  float: center;
-  width: 100%;
-  border-top: 2px solid black;
-}
-
 
 .sticky {
   position: fixed;
@@ -63,25 +57,6 @@ nav{
   padding-top: 60px;
 }
 
-.nav{
-  float: center;
-}
-
-nav ul{
-    background: pink;
-}
-nav ul li{
-  float: left;
-  padding: 20px 10px;
-  font-size: 35px;
-  margin: 0 20px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-nav a{
-  color: black;
-}
 
 .mySlides{
   float: center;
@@ -105,18 +80,16 @@ nav a{
 }
 
 /*Her kommer CSS fra spillere.html*/
-
-.spillere{
-  width: 100%;
-  margin: 5px;
+.spillerel{
   border: 2px solid black;
+  float: left;
 }
 
 .spiller{
-  margin: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
   width: 500px;
   border: 2px solid black;
-  float: right;
   display: inline-block;
 }
 
@@ -134,7 +107,6 @@ section{
   section h2{
     text-align: center;
     font-size: 60px;
-    padding: 40px;
     color: white;
     text-shadow: 1px 5px 2px black;
 
@@ -202,59 +174,6 @@ table {
 
 
 /* The popup form - hidden by default */
-.form-popup {
-  display: none;
-  position: absolute;
-  bottom, top: 40%;
-  border: 3px solid black;
-}
-
-/* Add styles to the form container */
-.form-container {
-  padding: 10px;
-  width: 100%;
-  background-color: pink;
-}
-
-.form-container input[type=text], .form-container input[type=email]{
-  width: 90%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-.form-container input[type=text]:focus, .form-container input[type=email]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/login button */
-.form-container .btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom:10px;
-  opacity: 0.8;
-}
-
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
-}
-
-.close-btn {
-  float: right;
-  color: lightgray;
-  font-size: 24px;
-  font-weight: bold;
-}
-.close-btn:hover {
-  color: darkgray;
-}
 
 
 /*kampreferat.html*/
@@ -289,28 +208,71 @@ table {
 }
 
 
-li.dropdown {
-  display: inline-block;
+/* Nå kommer masse CSS til navbaren*/
+.navbar {
+  overflow: hidden;
+  background-color: lightpink;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 35px;
+  margin: 0 20px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  float: left;
+  font-size: 35px;
+  margin: 0 20px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;;
+  transition: 0.6s;
+}
+
+.navbar a:active{
+    background-color: #E75480;
 }
 
 .dropdown-content {
   display: none;
-  position: relative;
-  min-width: 160px;
+  position: absolute;
+  background-color: #E75480;
+  min-width: 150px;
+  margin-right: 3%;
   z-index: 1;
-  background-color: pink;
-}
-
-.dropdown-button {
-  color: black;
 }
 
 .dropdown-content a {
   padding: 12px 16px;
   text-align: left;
-  display: inline-block;
+  display: block;
 }
 
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content{
   display: block;
 }
