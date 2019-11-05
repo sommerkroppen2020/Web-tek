@@ -170,11 +170,54 @@ table {
   font-size: 17px;
 }
 
-/*For pop_up'ene når folk skal melde seg inn i Reka-Fanclub*/
+/*For footeren som skal gå igjen i alle sider*/
 
+@media screen and (max-width: 630px) {
+  .col-3 {
+    width: 100%;
+  }
+}
 
-/* The popup form - hidden by default */
+footer {
+  background-color: lightpink;
+  width: 100%;
+  padding-bottom: 10px;
+  float: center;
+}
 
+footer p {
+  color: #bbb;
+  margin: 0 0 10px;
+  font-size: 0.8em;
+}
+
+#footer-container-liten-skrift, #footer-container {
+  max-width: 700px;
+}
+
+#liten-skrift {
+  font-size: 12px;
+}
+
+#footer-container {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+div .col-3{
+  text-align: center;
+  display: inline-block;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.col-3{
+  width: 24%;
+}
 
 /*kampreferat.html*/
 #kampreferat_container {
@@ -302,7 +345,7 @@ input:invalid {
 }
 
 input:valid {
-  border: 2px solid black;
+  border: 2px solid green;
 }
 
 input{

@@ -33,10 +33,10 @@ const navbar_content = "<div class='navbar'>\
 const footer_content = '<footer id="footer">\
   <div class="auto-margin" id="footer-container">\
     <div class="row">\
-        <div class="col-3"><p>Trondhiem Youth Hostel AS</p></div>\
-        <div class="col-3"><p><a target="_blank" href="https://www.google.no/maps/place/Weidemanns+vei+42,+7043+Trondheim/@63.4343273,10.3947243,13.21z/data=!4m5!3m4!1s0x466d31a6d91b8447:0xcfae9433f6a4eada!8m2!3d63.4340183!4d10.4254554">Weidemanns vei 42, 7048 Trondheim</a></p></div>\
-        <div class="col-3"><p>Telefonnummer: <br>+47 912 34 567</p></div>\
-        <div class="col-3"><p><a target="_top" href="mailto:post@trondheimyouthhostel.no">post@trondheimyouthhostel.no</a></p></div>\
+        <div class="col-3"><p>Realkameratene FK</p></div>\
+        <div class="col-3"><p><a target="_blank" href="">Tempe Arena</a></p></div>\
+        <div class="col-3"><p>Telefonnummer: <br>+47 472 56 744</p></div>\
+        <div class="col-3"><p><a target="_top" href="mailto:johannes.padel@gmail.com">johannes.padel@gmail.com</a></p></div>\
     </div>\
   </div>\
   <div class="auto-margin" id="footer-container-liten-skrift">\
