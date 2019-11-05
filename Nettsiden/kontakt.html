@@ -41,17 +41,38 @@
 
       <section>
         <br>
-        <h2>Realkameratene FK</h2><hr>
+        <h2>Send mail!</h2><hr>
       </section>
-      <div id="form">
-          <form class="form-container" action="javascript:void(0);">
-            <h1>Send mail!</h1>
-            <b>Name: </b><br>
-            <input type="text" name="name" required><br>
-            <b>E-mail: </b><br>
-            <input type="email" name="email" required><br>
+
+      <div class="container">
+        <div class="form">
+          <form id="forms" action="bekreftelse.html" method="get">
+            <label for="navn"><b>Navn:</b></label>
+            <input type="text" id="navn">
+            <br>
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email">
+
+            <label for="grunn"><b>Hvorfor tar du kontakt? </b><br><br>
+            Reka-Fanclub<input type="radio" name="grunn" value="Reka-fanclub" id="fan" checked>
+            </label>
+            <label for= "grunn">
+              Jeg ønsker prøvespill på laget<input type="radio" name="grunn" value="spiller" id="spiller">
+            </label>
+
+            <label for= "grunn">
+              Annet<input type="radio" name="grunn" value="annet" id="annet">
+            </label>
+
+            <label for="beskrivelse"><b>Skriv en kort beskrivelse av din forespørsel: </b></label><br><br>
+            <textarea name="beskrivelse" id="beskrivelse" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Send inn din forespørsel"><br>
           </form>
+        </div>
       </div>
+
     </main>
     <footer>
 
