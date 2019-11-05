@@ -10,7 +10,7 @@ const navbar_content = "<div class='navbar'>\
   <ul id='navbar'>\
     <li class='dropdown'>\
       <a href='javascript:void(0)' class='dropbtn'>Kamper</a>\
-      <div class='dropdown-content card'>\
+      <div class='dropdown-content'>\
         <a href='kalender.html'>Kalender</a>\
         <a href='kampreferat.html'>Referater</a>\
       </div>\
@@ -18,7 +18,7 @@ const navbar_content = "<div class='navbar'>\
     <li><a href='tabell.html'>Tabell</a></li>\
     <li class='dropdown'>\
       <a href='javascript:void(0)' class='dropbtn'>Kamper</a>\
-      <div class='dropdown-content card'>\
+      <div class='dropdown-content'>\
         <a href='spillere.html'>Spillere</a>\
         <a href='stab.html'>Stab</a>\
       </div>\
