@@ -270,6 +270,70 @@ li a.active {
   color:white;
 }
 
+
+
+/*For kontakt.html*/
+.container{
+  float: center;
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.form{
+  float: center;
+  text-decoration: none;
+
+}
+
+#forms{
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+input{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input:active{
+  border-color: blue;
+}
+
+textarea{
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
 /*Media-queries*/
 @media screen and (max-width: 80%){
     .nav{
