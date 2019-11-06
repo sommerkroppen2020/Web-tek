@@ -6,7 +6,7 @@ PURPOSE: Insert the navbar and footer into every page on the site, in
 accordance with the DRY principle. */
 
 /* Save the navbar markup in a constant */
-const navbar_content = "<div class='navbar'>\
+const navbar_content = "<div class='navbar' id='navbar2'>\
   <ul id='navbar'>\
     <li class='dropdown'>\
       <a href='javascript:void(0)' class='dropbtn'>Kamper</a>\
@@ -17,7 +17,7 @@ const navbar_content = "<div class='navbar'>\
     </li>\
     <li><a href='tabell.html'>Tabell</a></li>\
     <li class='dropdown'>\
-      <a href='javascript:void(0)' class='dropbtn'>Kamper</a>\
+      <a href='javascript:void(0)' class='dropbtn'>Laget</a>\
       <div class='dropdown-content'>\
         <a href='spillere.html'>Spillere</a>\
         <a href='stab.html'>Stab</a>\

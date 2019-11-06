@@ -48,18 +48,6 @@ header{
 
 }
 
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-
 .mySlides{
   float: center;
   width: 80%;
@@ -322,6 +310,16 @@ li a:active {
 
 li a:hover {
   background-color: yellow;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 /*For kontakt.html*/
