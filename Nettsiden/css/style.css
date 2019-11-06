@@ -4,6 +4,8 @@
 body{
   width: 100%;
   background-color: pink;
+  margin: 0;
+  padding: 0;
 }
 
 header{
@@ -181,6 +183,8 @@ table {
 footer {
   background-color: lightpink;
   width: 100%;
+  margin: 0;
+  padding: 0;
   padding-bottom: 10px;
   float: center;
 }
@@ -259,11 +263,13 @@ ul {
   overflow: hidden;
   background-color: #ff2bea;
   text-align: center;
-  border: 5px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 li {
-  float: left;
+  display: inline-block;
+  font-size: 20px;
 }
 
 li a, .dropbtn {
@@ -275,7 +281,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #fa6ba4;
 }
 
 li.dropdown {
@@ -306,15 +312,17 @@ li.dropdown {
 }
 
 ul#navbar a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #fa6ba4;
 }
 
-li a.active {
+li a:active {
   background-color: #ff9400;
   color:white;
 }
 
-
+li a:hover {
+  background-color: yellow;
+}
 
 /*For kontakt.html*/
 .container{
