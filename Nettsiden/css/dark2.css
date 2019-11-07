@@ -71,32 +71,15 @@ header{
 
 /*Her kommer CSS fra spillere.html*/
 .spillerel{
-  border: 1px solid #e280b0;
-  border-radius: 30px;
+  border: 2px solid black;
   float: left;
-  background-color: #e280b0;
-  text-align: center;
-
-}
-
-@media only screen and (max-width: 640px){
-  #spillere {
-    width: 620px;
-  }
-  h2 {
-    width: 620px;
-  }
 }
 
 .spiller{
-  width: 80%;
-  text-align: left;
-  padding: 20px;
-  border-radius: 20px;
-  margin: 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 500px;
   border: 2px solid black;
-  font-size: 16px;
-  background-color: white;
   display: inline-block;
 }
 
@@ -105,7 +88,6 @@ header{
   float: left;
   margin-right: 10px;
   width: 200px;
-  border-radius: 15px;
 }
 
 
@@ -158,12 +140,6 @@ section{
 
 
 /*kalender.html*/
-/*#kalender_container{
-  border: solid black;
-  padding: 20px;
-  height: 100%;
-  background: #e280b0;*/
-}
 #kalender_tabell {
   float:left;
   width: 60%;
@@ -175,11 +151,6 @@ section{
   float: right;
   margin-right: 5%;
   width: 15%;
-  background: white;
-  height: 100%;
-  width: 20%;
-  padding: 15px;
-  border-radius: 15px;
 }
 
 table {
@@ -430,14 +401,14 @@ p #omoss{
 
 /*Tabell delen*/
 ul, li {
-	margin: 0px;
-	list-style-type: none;
+  margin: 0px;
+  list-style-type: none;
 }
 
 input {
   display: block;
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 textarea {
@@ -452,7 +423,7 @@ textarea:focus, input:focus {
 
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
 
 
@@ -524,21 +495,6 @@ table td.r, table th.r {
   text-align: center;
 }
 
-tr a:link {
-  text-decoration: none;
-}
-
-tr a:visited {
-  text-decoration: none;
-}
-
-tr a:hover {
-  text-decoration: underline;
-}
-
-tr a:active {
-  text-decoration: underline;
-}
 
 .table100-head th{
   font-family: arial;
@@ -574,7 +530,7 @@ tbody tr:hover {
 
 .column2 {
   width: 160px;
-	padding-right: 62px;
+  padding-right: 62px;
 }
 
 .column3 {
@@ -600,19 +556,27 @@ tbody tr:hover {
 }
 .column7 {
   width: 170px;
-	text-align: center;
+  text-align: center;
 }
 
-#gull {
-  background-color: #ffdf32;
+#nyedrakter{
+  width: 200px;  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display:block;
 }
 
-#sølv {
-  background-color: #c4cace;
-}
-
-#brons {
-  background-color: #cea972;
+#swap{
+  position: fixed;
+  margin-top:15px;
+  margin-right:10px;
+  top: 0;
+  right: 0;
+  width: 150px;
+  z-index:2;
+  background-color: #202020;
+  color:white;
 }
 
 @media (max-width: 576px) {
