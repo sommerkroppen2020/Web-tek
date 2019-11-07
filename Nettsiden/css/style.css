@@ -659,6 +659,7 @@ tbody tr:hover {
     border-radius: 20px;
     padding: 10px;
     display: inline-block;
+    vertical-align: top;
     height: 400px;
 }
 
