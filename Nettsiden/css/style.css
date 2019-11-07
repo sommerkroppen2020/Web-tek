@@ -28,7 +28,7 @@ h2{
   background: pink;
   margin: 0 auto;
   width: 100%;
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
 }
 
 @media only screen and (max-width: 1200px){
@@ -155,7 +155,7 @@ section{
 }
 
 table {
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
   text-align: left;
   font-size: 17px;
 }
@@ -255,15 +255,16 @@ ul {
   border-top: 2px solid black;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 640px){
   ul {
-    width: 580px;
+    width: 620px;
   }
 }
 
 li {
   display: inline-block;
   font-size: 20px;
+  font-family: arial;
 }
 
 li a, .dropbtn {
@@ -472,7 +473,7 @@ table td, table th {
   padding-left: 10px;
 }
 table thead tr {
-  height: 50px;
+  max-height: 50px;
   background: #323954;
 }
 table tbody tr {
@@ -496,11 +497,12 @@ table td.r, table th.r {
 
 
 .table100-head th{
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
   font-size: 18px;
   color: white;
   line-height: 1.2;
   font-weight: unset;
+  height: 50px;
 }
 
 tbody tr:nth-child(even) {
@@ -508,7 +510,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr {
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
   font-size: 15px;
   color: #808080;
   line-height: 1.2;
@@ -557,61 +559,6 @@ tbody tr:hover {
 	text-align: center;
 }
 
-
-
-@media screen and (max-width: 992px) {
-  table {
-    display: block;
-  }
-  table > *, table tr, table td, table th {
-    display: block;
-  }
-  table thead {
-    display: none;
-  }
-  table tbody tr {
-    height: auto;
-    padding: 37px 0;
-  }
-  table tbody tr td {
-    padding-left: 40%;
-    margin-bottom: 24px;
-  }
-  table tbody tr td:last-child {
-    margin-bottom: 0;
-  }
-  table tbody tr td:before {
-    font-family: OpenSans-Regular, arial;
-    font-size: 14px;
-    color: #999999;
-    line-height: 1.2;
-    font-weight: unset;
-    position: absolute;
-    width: 40%;
-    left: 30px;
-    top: 0;
-  }
-
-
-  .column4,
-  .column5,
-  .column6 {
-    text-align: left;
-  }
-	.column7
-  .column4,
-  .column5,
-  .column6,
-  .column1,
-  .column2,
-  .column3 {
-    width: 100%;
-  }
-
-  tbody tr {
-    font-size: 14px;
-  }
-}
 
 @media (max-width: 576px) {
   .container-table100 {
