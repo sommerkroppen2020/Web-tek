@@ -159,11 +159,11 @@ section{
 
 
 /*kalender.html*/
-/*#kalender_container{
+#kalender_container{
   border: solid black;
   padding: 20px;
   height: 100%;
-  background: #e280b0;*/
+  background: #e280b0;
 }
 #kalender_tabell {
   float:left;
