@@ -31,6 +31,11 @@ h2{
   font-family: arial;
 }
 
+/*Slideshow*/
+.slidebilde{
+  border: 15px solid #e280b0;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 1200px){
   #container{
     width: 1200px;
@@ -57,12 +62,6 @@ header{
   min-width: 1000px;
   max-height: 100px;
   position: relative;
-}
-
-@media only screen and (max-width: 1200px){
-  .mySlides{
-    width: 1200px;
-  }
 }
 
 .dot{
@@ -272,6 +271,7 @@ div .col-3{
 
 .kampreferat_tekst {
   height: 100%;
+  margin-bottom: 20px;
 }
 
 #more1,#more2 {
@@ -406,6 +406,7 @@ input:active{
 textarea{
   margin: 8px 0;
   border-radius: 4px;
+  max-width: 100%;
 }
 
 input[type=submit]{
@@ -658,6 +659,7 @@ tbody tr:hover {
     border-radius: 20px;
     padding: 10px;
     display: inline-block;
+    height: 400px;
 }
 
 .small img{
