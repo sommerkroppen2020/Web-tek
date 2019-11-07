@@ -3,7 +3,7 @@
 
 body{
   width: 100%;
-  background-color: #202020;
+  background-color: pink;
   margin: 0;
   padding: 0;
 }
@@ -25,7 +25,7 @@ h2{
 }
 
 #container{
-  background: #202020;
+  background: pink;
   margin: 0 auto;
   width: 100%;
   font-family: arial;
@@ -382,9 +382,8 @@ input[type=submit]{
 }
 
 /*Om.html*/
-#omoss{
+p #omoss{
   font-size: 16px;
-  color: white;
 }
 
 
@@ -576,7 +575,7 @@ tbody tr:hover {
   right: 0;
   width: 150px;
   z-index:2;
-  background-color: pink;
+  background-color: #202020;
   color:white;
 }
 
