@@ -491,7 +491,7 @@ table {
   background: white;
   border-radius: 20px;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -613,6 +613,12 @@ tbody tr:hover {
 
 #brons {
   background-color: #cea972;
+}
+
+#logo{
+  width:300px;
+  height:300px;
+  z-index: -1
 }
 
 @media (max-width: 576px) {
