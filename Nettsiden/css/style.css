@@ -249,7 +249,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ff2bea;
+  background-color: #e280b0;
   text-align: center;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
@@ -269,7 +269,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #fa6ba4;
+  background-color: #e896bd;
 }
 
 li.dropdown {
@@ -279,14 +279,14 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #db0075;
+  background-color: #c16291;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -294,7 +294,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #db0075;
+  background-color: #db0075; /*endrer denne noen av fargene?*/
 }
 
 .dropdown:hover .dropdown-content {
@@ -302,7 +302,8 @@ li.dropdown {
 }
 
 ul#navbar a:hover:not(.active) {
-  background-color: #fa6ba4;
+  background-color: #ffccd5;
+  color: black;
 }
 
 li a.active {
