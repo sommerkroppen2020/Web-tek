@@ -615,6 +615,12 @@ tbody tr:hover {
   background-color: #cea972;
 }
 
+#logo{
+  width:300px;
+  height:300px;
+  z-index: -1
+}
+
 @media (max-width: 576px) {
   .container-table100 {
     padding-left: 15px;
