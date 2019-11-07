@@ -4,6 +4,8 @@
 body{
   width: 100%;
   background-color: pink;
+  margin: 0;
+  padding: 0;
 }
 
 header{
@@ -45,18 +47,6 @@ header{
   text-align: center;
 
 }
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 
 .mySlides{
   float: center;
@@ -182,7 +172,9 @@ footer {
   background-color: lightpink;
   width: 100%;
   padding-bottom: 10px;
-  float: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 footer p {
@@ -259,11 +251,13 @@ ul {
   overflow: hidden;
   background-color: #ff2bea;
   text-align: center;
-  border: 5px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 li {
-  float: left;
+  display: inline-block;
+  font-size: 20px;
 }
 
 li a, .dropbtn {
@@ -275,7 +269,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #fa6ba4;
 }
 
 li.dropdown {
@@ -299,14 +293,16 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #db0075;}
+.dropdown-content a:hover {
+  background-color: #db0075;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 ul#navbar a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #fa6ba4;
 }
 
 li a.active {
