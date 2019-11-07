@@ -159,27 +159,28 @@ section{
 
 /*kalender.html*/
 #kalender_container{
-  border: solid black;
-  padding: 20px;
-  height: 100%;
-  background: #e280b0;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
+  float: left;
+  background-color: #e280b0;
 }
 #kalender_tabell {
   float:left;
-  width: 60%;
-  margin-left: 5%;
-  margin-bottom: 10px;
+  width: 75%;
+  margin: 20px -30px;
 }
 
 #kalender_sosialt {
   float: right;
-  margin-right: 5%;
-  width: 15%;
   background: white;
   height: 100%;
   width: 20%;
   padding: 15px;
+  margin: 20px 0;
   border-radius: 15px;
+  border: solid black;
 }
 
 table {
@@ -243,12 +244,19 @@ div .col-3{
 #kampreferat_container {
   width: 80%;
   margin-left: 10%;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
+  float: left;
+  background-color: #e280b0;
 }
 
 .kampreferat_innhold {
   display: flex;
-  margin: 10px;
-  width: 100%;
+  margin: 3%;
+  width: 94%;
+  border: solid black;
+  background: white;
+  border-radius: 15px;
 }
 
 .kampreferat_bilde_container {
@@ -259,7 +267,7 @@ div .col-3{
   width: 200px;
   position: relative;
   margin: 20px;
-  z-index: 0;
+  border-radius: 15px;
 }
 
 .kampreferat_tekst {
@@ -352,7 +360,7 @@ li a.active {
 .container{
   float: center;
   border-radius: 20px;
-  background-color: #F7BFBF;
+  background-color: #e280b0;
   width: 800px;
   margin: auto;
   padding: 50px;
@@ -626,4 +634,34 @@ tbody tr:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+
+/*Sosialt*/
+.big {
+    width: 80%;
+    margin-left: 7%;
+    padding:30px;
+    text-align: center;
+    border: 1px solid #e280b0;
+    border-radius: 30px;
+    float: left;
+    background-color: #e280b0;
+    text-align: center;
+}
+
+.small {
+    background: white;
+    height: 10px;
+    margin: 1%;
+    width: 25%;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.small img{
+  max-width:100%;
+  max-height:100%;
 }
