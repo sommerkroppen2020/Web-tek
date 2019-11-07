@@ -4,6 +4,8 @@
 body{
   width: 100%;
   background-color: pink;
+  margin: 0;
+  padding: 0;
 }
 
 header{
@@ -26,7 +28,7 @@ h2{
   background: pink;
   margin: 0 auto;
   width: 100%;
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
 }
 
 @media only screen and (max-width: 1200px){
@@ -45,18 +47,6 @@ header{
   text-align: center;
 
 }
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 
 .mySlides{
   float: center;
@@ -81,15 +71,32 @@ header{
 
 /*Her kommer CSS fra spillere.html*/
 .spillerel{
-  border: 2px solid black;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
   float: left;
+  background-color: #e280b0;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 640px){
+  #spillere {
+    width: 620px;
+  }
+  h2 {
+    width: 620px;
+  }
 }
 
 .spiller{
-  margin-left: 70px;
-  margin-top: 20px;
-  width: 500px;
+  width: 80%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
   border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
   display: inline-block;
 }
 
@@ -98,6 +105,7 @@ header{
   float: left;
   margin-right: 10px;
   width: 200px;
+  border-radius: 15px;
 }
 
 
@@ -118,9 +126,7 @@ section{
 /* Slideshow container */
 .slideshow-container {
   float: center;
-  width: 80%;
   height: 800px;
-  padding: 0 10%;
 }
 
 /* Hide the images by default */
@@ -162,6 +168,7 @@ section{
   float:left;
   width: 60%;
   margin-left: 5%;
+  margin-bottom: 10px;
 }
 
 #kalender_sosialt {
@@ -176,7 +183,7 @@ section{
 }
 
 table {
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
   text-align: left;
   font-size: 17px;
 }
@@ -193,7 +200,9 @@ footer {
   background-color: lightpink;
   width: 100%;
   padding-bottom: 10px;
-  float: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 footer p {
@@ -268,13 +277,22 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ff2bea;
+  background-color: #e280b0;
   text-align: center;
-  border: 5px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+@media only screen and (max-width: 640px){
+  ul {
+    width: 620px;
+  }
 }
 
 li {
-  float: left;
+  display: inline-block;
+  font-size: 20px;
+  font-family: arial;
 }
 
 li a, .dropbtn {
@@ -286,7 +304,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #e896bd;
 }
 
 li.dropdown {
@@ -296,28 +314,31 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #db0075;
+  background-color: #c16291;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #db0075;}
+.dropdown-content a:hover {
+  background-color: #db0075; /*endrer denne noen av fargene?*/
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 ul#navbar a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #ffccd5;
+  color: black;
 }
 
 li a.active {
@@ -387,6 +408,11 @@ input[type=submit]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+/*Om.html*/
+p #omoss{
+  font-size: 16px;
 }
 
 
@@ -476,7 +502,7 @@ table td, table th {
   padding-left: 10px;
 }
 table thead tr {
-  height: 50px;
+  max-height: 50px;
   background: #323954;
 }
 table tbody tr {
@@ -498,13 +524,29 @@ table td.r, table th.r {
   text-align: center;
 }
 
+tr a:link {
+  text-decoration: none;
+}
+
+tr a:visited {
+  text-decoration: none;
+}
+
+tr a:hover {
+  text-decoration: underline;
+}
+
+tr a:active {
+  text-decoration: underline;
+}
 
 .table100-head th{
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
   font-size: 18px;
   color: white;
   line-height: 1.2;
   font-weight: unset;
+  height: 50px;
 }
 
 tbody tr:nth-child(even) {
@@ -512,7 +554,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr {
-  font-family: OpenSans-Regular, arial;
+  font-family: arial;
   font-size: 15px;
   color: #808080;
   line-height: 1.2;
@@ -561,60 +603,16 @@ tbody tr:hover {
 	text-align: center;
 }
 
+#gull {
+  background-color: #ffdf32;
+}
 
+#sølv {
+  background-color: #c4cace;
+}
 
-@media screen and (max-width: 992px) {
-  table {
-    display: block;
-  }
-  table > *, table tr, table td, table th {
-    display: block;
-  }
-  table thead {
-    display: none;
-  }
-  table tbody tr {
-    height: auto;
-    padding: 37px 0;
-  }
-  table tbody tr td {
-    padding-left: 40%;
-    margin-bottom: 24px;
-  }
-  table tbody tr td:last-child {
-    margin-bottom: 0;
-  }
-  table tbody tr td:before {
-    font-family: OpenSans-Regular, arial;
-    font-size: 14px;
-    color: #999999;
-    line-height: 1.2;
-    font-weight: unset;
-    position: absolute;
-    width: 40%;
-    left: 30px;
-    top: 0;
-  }
-
-
-  .column4,
-  .column5,
-  .column6 {
-    text-align: left;
-  }
-	.column7
-  .column4,
-  .column5,
-  .column6,
-  .column1,
-  .column2,
-  .column3 {
-    width: 100%;
-  }
-
-  tbody tr {
-    font-size: 14px;
-  }
+#brons {
+  background-color: #cea972;
 }
 
 #logo{
