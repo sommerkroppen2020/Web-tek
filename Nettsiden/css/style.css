@@ -513,6 +513,21 @@ table td.r, table th.r {
   text-align: center;
 }
 
+tr a:link {
+  text-decoration: none;
+}
+
+tr a:visited {
+  text-decoration: none;
+}
+
+tr a:hover {
+  text-decoration: underline;
+}
+
+tr a:active {
+  text-decoration: underline;
+}
 
 .table100-head th{
   font-family: arial;
@@ -577,6 +592,17 @@ tbody tr:hover {
 	text-align: center;
 }
 
+#gull {
+  background-color: #ffdf32;
+}
+
+#sølv {
+  background-color: #c4cace;
+}
+
+#brons {
+  background-color: #cea972;
+}
 
 @media (max-width: 576px) {
   .container-table100 {
