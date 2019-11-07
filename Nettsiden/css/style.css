@@ -255,6 +255,12 @@ ul {
   border-top: 2px solid black;
 }
 
+@media only screen and (max-width: 600px){
+  ul {
+    width: 580px;
+  }
+}
+
 li {
   display: inline-block;
   font-size: 20px;

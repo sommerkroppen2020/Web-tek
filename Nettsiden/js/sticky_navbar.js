@@ -1,5 +1,5 @@
 
-//learned this code from W3schools
+//learned parts of this code from W3schools
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar_content");
