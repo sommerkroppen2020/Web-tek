@@ -105,8 +105,7 @@ header{
   float: left;
   margin-right: 10px;
   width: 200px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 15px;
 }
 
 
@@ -160,27 +159,28 @@ section{
 
 /*kalender.html*/
 #kalender_container{
-  border: solid black;
-  padding: 20px;
-  height: 100%;
-  background: #e280b0;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
+  float: left;
+  background-color: #e280b0;
 }
 #kalender_tabell {
   float:left;
-  width: 60%;
-  margin-left: 5%;
-  margin-bottom: 10px;
+  width: 75%;
+  margin: 20px -30px;
 }
 
 #kalender_sosialt {
   float: right;
-  margin-right: 5%;
-  width: 15%;
   background: white;
   height: 100%;
   width: 20%;
   padding: 15px;
+  margin: 20px 0;
   border-radius: 15px;
+  border: solid black;
 }
 
 table {
@@ -214,7 +214,6 @@ footer p {
 
 #footer-container-liten-skrift, #footer-container {
   max-width: 700px;
-  color: black;
 }
 
 #liten-skrift {
@@ -241,17 +240,23 @@ div .col-3{
   width: 24%;
 }
 
-
 /*kampreferat.html*/
 #kampreferat_container {
   width: 80%;
   margin-left: 10%;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
+  float: left;
+  background-color: #e280b0;
 }
 
 .kampreferat_innhold {
   display: flex;
-  margin: 10px;
-  width: 100%;
+  margin: 3%;
+  width: 94%;
+  border: solid black;
+  background: white;
+  border-radius: 15px;
 }
 
 .kampreferat_bilde_container {
@@ -262,7 +267,7 @@ div .col-3{
   width: 200px;
   position: relative;
   margin: 20px;
-  z-index: 0;
+  border-radius: 15px;
 }
 
 .kampreferat_tekst {
@@ -355,7 +360,7 @@ li a.active {
 .container{
   float: center;
   border-radius: 20px;
-  background-color: #F7BFBF;
+  background-color: #e280b0;
   width: 800px;
   margin: auto;
   padding: 50px;
@@ -631,14 +636,22 @@ tbody tr:hover {
   }
 }
 
-/* Styling av sosialt.html */
+
+/*Sosialt*/
 .big {
-    height:110%;
+    width: 80%;
+    margin-left: 7%;
+    padding:30px;
+    text-align: center;
+    border: 1px solid #e280b0;
+    border-radius: 30px;
+    float: left;
+    background-color: #e280b0;
     text-align: center;
 }
 
 .small {
-    height: 600px;
+    background: white;
     margin: 1%;
     width: 25%;
     border: 4px solid black;
