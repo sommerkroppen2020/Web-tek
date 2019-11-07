@@ -160,6 +160,12 @@ section{
 
 
 /*kalender.html*/
+/*#kalender_container{
+  border: solid black;
+  padding: 20px;
+  height: 100%;
+  background: #e280b0;*/
+}
 #kalender_tabell {
   float:left;
   width: 60%;
@@ -171,6 +177,11 @@ section{
   float: right;
   margin-right: 5%;
   width: 15%;
+  background: white;
+  height: 100%;
+  width: 20%;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 table {
