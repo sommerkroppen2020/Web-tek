@@ -27,7 +27,7 @@ h2{
 }
 
 #container{
-  background: pink;
+  background: #202020;
   margin: 0 auto;
   width: 100%;
   font-family: arial;
@@ -97,7 +97,7 @@ header{
   margin: 20px;
   border: 2px solid black;
   font-size: 16px;
-  background-color: white;
+  background-color: #303030;
   display: inline-block;
 }
 
@@ -171,11 +171,12 @@ section{
   float:left;
   width: 75%;
   margin: 20px -30px;
+  background-color:#303030;
 }
 
 #kalender_sosialt {
   float: right;
-  background: white;
+  background: #303030;
   height: 100%;
   width: 20%;
   padding: 15px;
@@ -258,7 +259,7 @@ footer p {
   margin: 3%;
   width: 94%;
   border: solid black;
-  background: white;
+  background: #303030;
   border-radius: 15px;
 }
 
@@ -384,7 +385,7 @@ li a.active {
   margin: 20px;
   border: 2px solid black;
   font-size: 16px;
-  background-color: white;
+  background-color: #303030;
 }
 
 input:invalid {
@@ -401,6 +402,7 @@ input{
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 4px;
+  background-color:#404040;
 }
 
 input:active{
@@ -421,6 +423,10 @@ input[type=submit]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+#beskrivelse{
+  background-color:#404040;
 }
 
 /*Om.html*/
@@ -680,7 +686,7 @@ tbody tr:hover {
 }
 
 .small {
-    background: white;
+    background: #303030;
     margin: 1%;
     width: 25%;
     border: 4px solid black;
