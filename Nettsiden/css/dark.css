@@ -4,8 +4,10 @@
 body{
   width: 100%;
   background-color: #202020;
+  color:white;
   margin: 0;
   padding: 0;
+  font-family: arial;
 }
 
 header{
@@ -25,12 +27,17 @@ h2{
 }
 
 #container{
-  background: #202020;
+  background: pink;
   margin: 0 auto;
   width: 100%;
   font-family: arial;
 }
 
+/*Slideshow*/
+.slidebilde{
+  border: 15px solid #e280b0;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 1200px){
   #container{
     width: 1200px;
@@ -59,27 +66,38 @@ header{
   position: relative;
 }
 
-@media only screen and (max-width: 1200px){
-  .mySlides{
-    width: 1200px;
-  }
-}
-
 .dot{
   position: relative;
 }
 
 /*Her kommer CSS fra spillere.html*/
 .spillerel{
-  border: 2px solid black;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
   float: left;
+  background-color: #e280b0;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 640px){
+  #spillere {
+    width: 620px;
+  }
+  h2 {
+    width: 620px;
+  }
 }
 
 .spiller{
-  margin-left: 70px;
-  margin-top: 20px;
-  width: 500px;
+  width: 80%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
   border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
   display: inline-block;
 }
 
@@ -88,6 +106,7 @@ header{
   float: left;
   margin-right: 10px;
   width: 200px;
+  border-radius: 15px;
 }
 
 
@@ -140,17 +159,29 @@ section{
 
 
 /*kalender.html*/
+#kalender_container{
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
+  float: left;
+  background-color: #e280b0;
+}
 #kalender_tabell {
   float:left;
-  width: 60%;
-  margin-left: 5%;
-  margin-bottom: 10px;
+  width: 75%;
+  margin: 20px -30px;
 }
 
 #kalender_sosialt {
   float: right;
-  margin-right: 5%;
-  width: 15%;
+  background: white;
+  height: 100%;
+  width: 20%;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border: solid black;
 }
 
 table {
@@ -173,30 +204,32 @@ footer {
   padding-bottom: 10px;
   display: inline-block;
   margin: 0;
-  padding: 0;
+  margin-top: 40px;
 }
 
 footer p {
   color: #bbb;
   margin: 0 0 10px;
   font-size: 0.8em;
+  color: white;
+}
+
+#footer{
+  text-align: center;
 }
 
 #footer-container-liten-skrift, #footer-container {
   max-width: 700px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 #liten-skrift {
   font-size: 12px;
 }
 
-#footer-container {
-  margin-top: 30px;
-  padding-top: 20px;
-}
 
-div .col-3{
-  text-align: center;
+.col-3{
   display: inline-block;
 }
 
@@ -214,12 +247,19 @@ div .col-3{
 #kampreferat_container {
   width: 80%;
   margin-left: 10%;
+  border: 1px solid #e280b0;
+  border-radius: 30px;
+  float: left;
+  background-color: #e280b0;
 }
 
 .kampreferat_innhold {
   display: flex;
-  margin: 10px;
-  width: 100%;
+  margin: 3%;
+  width: 94%;
+  border: solid black;
+  background: white;
+  border-radius: 15px;
 }
 
 .kampreferat_bilde_container {
@@ -230,11 +270,12 @@ div .col-3{
   width: 200px;
   position: relative;
   margin: 20px;
-  z-index: 0;
+  border-radius: 15px;
 }
 
 .kampreferat_tekst {
   height: 100%;
+  margin-bottom: 20px;
 }
 
 #more1,#more2 {
@@ -323,7 +364,7 @@ li a.active {
 .container{
   float: center;
   border-radius: 20px;
-  background-color: #F7BFBF;
+  background-color: #e280b0;
   width: 800px;
   margin: auto;
   padding: 50px;
@@ -369,6 +410,7 @@ input:active{
 textarea{
   margin: 8px 0;
   border-radius: 4px;
+  max-width: 100%;
 }
 
 input[type=submit]{
@@ -382,9 +424,8 @@ input[type=submit]{
 }
 
 /*Om.html*/
-#omoss{
+p #omoss{
   font-size: 16px;
-  color: white;
 }
 
 
@@ -463,7 +504,7 @@ table {
   background: white;
   border-radius: 20px;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -496,6 +537,21 @@ table td.r, table th.r {
   text-align: center;
 }
 
+tr a:link {
+  text-decoration: none;
+}
+
+tr a:visited {
+  text-decoration: none;
+}
+
+tr a:hover {
+  text-decoration: underline;
+}
+
+tr a:active {
+  text-decoration: underline;
+}
 
 .table100-head th{
   font-family: arial;
@@ -520,7 +576,7 @@ tbody tr {
 
 tbody tr:hover {
   color: #555555;
-  background-color: #f5f5f5;
+  background-color: #ccc;
   cursor: pointer;
 }
 
@@ -560,19 +616,41 @@ tbody tr:hover {
   text-align: center;
 }
 
-/*Om oss*/
-#nyedrakter{
-  width: 200px;  
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  display:block;
+#gull {
+  background-color: #ffdf32;
+}
+
+#sølv {
+  background-color: #c4cace;
+}
+
+#brons {
+  background-color: #cea972;
 }
 
 #logo{
   width:300px;
   height:300px;
   z-index: -1
+}
+
+@media (max-width: 576px) {
+  .container-table100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+/*Om oss*/
+
+
+#nyedrakter{
+  width: 200px;  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display:block;
 }
 
 #swap{
@@ -587,9 +665,33 @@ tbody tr:hover {
   color:white;
 }
 
-@media (max-width: 576px) {
-  .container-table100 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+
+/*Sosialt*/
+.big {
+    width: 80%;
+    margin-left: 7%;
+    padding:30px;
+    text-align: center;
+    border: 1px solid #e280b0;
+    border-radius: 30px;
+    float: left;
+    background-color: #e280b0;
+    text-align: center;
+}
+
+.small {
+    background: white;
+    margin: 1%;
+    width: 25%;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+}
+
+.small img{
+  max-width:100%;
+  max-height:100%;
 }
