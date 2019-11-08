@@ -641,6 +641,30 @@ tbody tr:hover {
 }
 
 
+/*Om oss*/
+
+
+#nyedrakter{
+  width: 200px;  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display:block;
+}
+
+#swap{
+  position: fixed;
+  margin-top:15px;
+  margin-right:10px;
+  top: 0;
+  right: 0;
+  width: 150px;
+  z-index:2;
+  background-color: #202020;
+  color:white;
+}
+
+
 /*Sosialt*/
 .big {
     width: 80%;

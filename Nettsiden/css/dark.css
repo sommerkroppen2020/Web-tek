@@ -560,12 +560,19 @@ tbody tr:hover {
   text-align: center;
 }
 
+/*Om oss*/
 #nyedrakter{
   width: 200px;  
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   display:block;
+}
+
+#logo{
+  width:300px;
+  height:300px;
+  z-index: -1
 }
 
 #swap{
