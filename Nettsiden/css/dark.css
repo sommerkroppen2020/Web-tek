@@ -1,6 +1,3 @@
-
-
-
 body{
   width: 100%;
   background-color: #202020;
@@ -29,7 +26,7 @@ h2{
 #container{
   background: #202020;
   margin: 0 auto;
-  width: 100%;
+  text-align: center;
   font-family: arial;
 }
 
@@ -38,9 +35,9 @@ h2{
   border: 15px solid #e280b0;
   border-radius: 10px;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 900px){
   #container{
-    width: 1200px;
+    width: 900px;
   }
 }
 
@@ -55,19 +52,24 @@ header{
 
 }
 
-.mySlides{
-  float: center;
-  width: 80%;
-  height: auto;
-  padding: 0 10%;
-  margin-bottom: 100px;
-  min-width: 1000px;
-  max-height: 100px;
-  position: relative;
+#slideshow-container {
+  padding-top: 20px;
 }
 
-.dot{
-  position: relative;
+#slideshow-container img {
+  border-radius: 10px;
+}
+
+.mySlides{
+  float: center;
+  width: 800px;
+  height: auto;
+  padding: 0;
+  margin:auto;
+}
+
+#dots {
+  margin:auto;
 }
 
 /*Her kommer CSS fra spillere.html*/
@@ -283,9 +285,13 @@ footer p {
   display: none;
 }
 
+#oppdateringer {
+  text-align: center;
+}
+
 
 /* Nå kommer masse CSS til navbaren*/
-ul {
+ul#navbar{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -297,7 +303,7 @@ ul {
 }
 
 @media only screen and (max-width: 640px){
-  ul {
+  ul#navbar{
     width: 620px;
   }
 }
@@ -669,6 +675,13 @@ tbody tr:hover {
   z-index:2;
   background-color: pink;
   color:white;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 900px){
+#swap{
+  display: none;
+  }
 }
 
 
