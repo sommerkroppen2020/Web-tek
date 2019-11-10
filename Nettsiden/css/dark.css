@@ -171,7 +171,7 @@ section{
 }
 #kalender_tabell {
   float:left;
-  width: 75%;
+  width: 65%;
   margin: 20px;
   background-color:#303030;
 }
@@ -369,23 +369,21 @@ li a.active {
 
 /*For kontakt.html*/
 .container{
-  float: center;
   border-radius: 20px;
   background-color: #e280b0;
   width: 800px;
   margin: auto;
   padding: 50px;
   border: 2px solid black;
+  text-align: center;
 }
 
 .form{
-  float: center;
   text-decoration: none;
 
 }
 
 #forms{
-  width: 80%;
   padding: 20px;
   border-radius: 20px;
   margin: 20px;
