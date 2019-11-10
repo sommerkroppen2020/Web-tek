@@ -28,8 +28,8 @@ h2{
 #container{
   background: pink;
   margin: 0 auto;
-  width: 100%;
   font-family: arial;
+  text-align: center;
 }
 
 /*Slideshow*/
@@ -37,9 +37,9 @@ h2{
   border: 15px solid #e280b0;
   border-radius: 10px;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 900px){
   #container{
-    width: 1200px;
+    width: 900px;
   }
 }
 
@@ -54,21 +54,29 @@ header{
 
 }
 
+#slideshow-container {
+  padding-top: 20px;
+}
+
+#slideshow-container img {
+  border-radius: 10px;
+}
+
 .mySlides{
+  width: 800px;
   float: center;
-  width: 80%;
   height: auto;
-  padding: 0 10%;
-  margin-bottom: 100px;
-  min-width: 1000px;
-  max-height: 100px;
-  position: relative;
+  padding: 0;
+  margin:auto;
 }
 
-.dot{
-  position: relative;
+#dots {
+  margin:auto;
 }
 
+#oppdateringer {
+  text-align: center;
+}
 /*Her kommer CSS fra spillere.html*/
 .spillerel{
   border: 1px solid #e280b0;
@@ -284,7 +292,7 @@ footer p {
 
 
 /* Nå kommer masse CSS til navbaren*/
-ul {
+ul#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -296,12 +304,12 @@ ul {
 }
 
 @media only screen and (max-width: 640px){
-  ul {
+  ul#navbar {
     width: 620px;
   }
 }
 
-li {
+#navbar li {
   display: inline-block;
   font-size: 20px;
   font-family: arial;
@@ -646,7 +654,7 @@ tbody tr:hover {
 
 
 #nyedrakter{
-  width: 200px;  
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -663,8 +671,14 @@ tbody tr:hover {
   z-index:2;
   background-color: #202020;
   color:white;
+  border: 2px solid black;
 }
 
+@media only screen and (max-width: 900px){
+  #swap{
+    display: none;
+  }
+}
 
 /*Sosialt*/
 .big {
