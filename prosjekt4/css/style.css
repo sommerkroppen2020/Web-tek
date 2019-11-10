@@ -1,0 +1,108 @@
+#container{
+  background: #f2B7D3;
+  margin: 0 5%;
+  width: 90%;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 5px groove;
+}
+
+header{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+section{
+  border: 1px solid;
+  padding: 40px;
+  padding-left: 50px;
+  margin: 40px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f2B7D3;
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 100%;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 16px 4px;
+  text-decoration: none;
+  font-size: 12px;
+}
+#navbar a:hover {
+  background-color: #df0065;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1020px;
+}
+
+.sticky + article {
+  padding-top: 60px;
+}
+
+main{
+  border: 1px solid;
+  padding: 40px;
+  padding-left: 50px;
+  margin: 40px;
+}
+
+#article{
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  border: 1px solid;
+}
+
+footer{
+  margin: 20px;
+  padding: 20px;
+}
+
+img{
+  width: 80%;
+}
+
+table {
+  border-spacing: 5px;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 15px;
+}
