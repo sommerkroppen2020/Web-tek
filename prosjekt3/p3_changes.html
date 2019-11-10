@@ -2,7 +2,7 @@
 <html lang="nb">
   <head>
     <meta charset="UTF-8">
-      <title>Realkameratene FK</title>
+      <title>P3 Changes</title>
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -41,11 +41,55 @@
               <section id="s3">
                 <h2>Javascript</h2>
                 <hr>
-                <p>Her skal vi skrive om hvordan vi løste våre egne oppgaver innenfor javascript. </p></section>
+                <p>Her står det beskrevet hvordan vi løste våre egne oppgaver innenfor javascript. </p>
+                <ul style="list-style-type:none">
+                  <li><b>Slideshow.js (Jenny):</b> Fant en mal på w3schools (link i js-fila) og tilpasset den til vår side.
+                    Bildene skulle byttes hvert 10 sekund, og dette ble gjort ved bruk av setTimeout. I scriptet er
+                    det to funksjoner. Den ene gjør at man manuelt kan velge bildet ved å trykke på “dottene” under
+                    bildet, og en som automatisk endrer bildet etter 10 sek. Det er den sistnevnte som faktisk endrer
+                    hvilket bilde som vises, og currentslide funksjonen kaller bare showslides. Dette scriptet krever
+                    at display er none fra før, og for at det ellers skal se greit ut med “dottene” krever det litt
+                    ekstra css.</li><br>
+                  <li><b>Resize_pic.js (Petter):</b> Dette endte opp som en relativt enkel funksjon etter å ha funnet ut hvordan
+                    “onmouseover” og “onmouseout” fungerer. Funksjonen skulle i utgangspunktet bruke “addEventListener” til
+                    alle bildene som skulle ha en felles class, men det funket bedre å kalle funksjonene direkte i html-filen.
+                    Det var dermed greit å få funksjonen til å endre størrelsen på det aktuelle bildet, ved å bruke “(self)”
+                    som argument.</li><br>
+                  <li><b>Roll-over-menu.js (Petter & André):</b> Det ble fort klart for oss at denne funksjonen burde deles i 2 filer
+                    “include.js” og “sticky_navbar.js”. Den første fila sørger for at innholdet i navbaren og footer kommer inn i
+                    alle html-dokumentene, uten å måtte gjenta hele koden på nytt. Den andre skulle oppfylle ønsket om at menyen
+                    blir på siden om man scroller langt ned. Imidlertid var det styling av navbaren som viste seg å være mest jobb
+                    for å få inn funksjonalitetene vi ville ha. Noe av stylingen fant vi på W3Schools, og justerte den til vårt
+                    eget design.</li><br>
+                  <li><b>darkmode.js (Sander):</b> Vi ønsket å teste våre ferdigheter i CSS, samt javascript ved å kombinere disse
+                    to språkene. Det er derfor laget en knapp som kan endre nettsiden til en mørkere versjon, og ved å trykke på
+                    nytt så vil den bli endret tilbake til den gamle fargen. Dette er spesielt lurt om man ligger og scroller på
+                    nettet en sen kveld, men føler at den lyse rosafargen er altfor sterk. Man kan da endre til darkmode for å ikke
+                    få det sterke lyset på seg når man egentlig skal sove.</li><br>
+                  <li><b>Popup.js (André):</b> Grunnet at popup-vinduet ikke passet seg fint på nettsiden endret vi denne filen til en
+                    egen html-fil i stedet. Dermed finnes ikke scriptet og vi valgte heller å prøve ut andre funksjonaliteter for å
+                    oppfylle minstekravet til siden.</li><br>
+                  <li><b>Logo_wiggle.js (Sander):</b> Her bestemte vi oss for å få logoen til å bevege på seg når man scroller. Dette
+                    gjøres med to forskjellige bilder, den originale logoen og en litt endret. Dette skulle være en artig funksjon,
+                    som ikke skulle være i veien, men morsom for de som legger merke til det. Dette var i samsvar med bevegelsen som
+                    inngår i rekadansen, den tradisjonsrike dansen til klienten vår.</li><br>
+              </section>
               <section id="s4">
                 <h2>Modularitet</h2>
                 <hr>
-                <p>Her skal vi skrive hvordan vi løste kravet rundt modularitet</p>
+                <p>Denne seksjonen inneholder informasjon om de ulike tiltakene vi gjorde for å få nettsiden til å støtte modularitet</p>
+                <ul style="list-style-type:none">
+                  <li><b>Navigasjonsbar og footer:</b> For å ikke måtte kopiere innholdet for disse elementene i hver
+                     fil, brukte vi en tutorial til å lage “include.js” der vi kan knytte html-kode i en js-fil til en
+                     ID, som resulterer i vesentlig mindre kode totalt. Denne metoden gjøre det derimot vanskelig å få
+                      innholdet i navigasjonsbaren og footeren til å samhandle med andre scripts. Derfor kunne vi ikke
+                       bruke samme metode for banneret.</li><br>
+                  <li><b>CSS:</b> Vi brukte en felles CSS-fil for å støtte modularitet i stylingen. Dette førte til et veldig
+                    langt dokument, men nettsiden fungerer raskt og greit likevel. Vi måtte bruke mye class og id for
+                    ikke å rote med hverandres styling, som fungerte greit etter hvert som vi forsto dette bedre.</li><br>
+                  <li><b>Banner:</b> Bakgrunnen og logoen øverst på hver side hadde en veldig kort kode i HTML, slik at vi
+                    godtok å ha denne kopiert inn på hver side. Dette var også en nødvendighet for at vi skulle klare
+                    å få “Logo-wiggle.js” til å fungere ordentlig.</li><br>
               </section>
               <section id="s5">
                 <h2>Hva endret vi?</h2>
