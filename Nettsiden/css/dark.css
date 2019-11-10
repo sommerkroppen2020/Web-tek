@@ -172,7 +172,7 @@ section{
 #kalender_tabell {
   float:left;
   width: 75%;
-  margin: 20px -30px;
+  margin: 20px;
   background-color:#303030;
 }
 
@@ -182,7 +182,7 @@ section{
   height: 100%;
   width: 20%;
   padding: 15px;
-  margin: 20px 0;
+  margin: 20px 20px 20px 0;
   border-radius: 15px;
   border: solid black;
 }
