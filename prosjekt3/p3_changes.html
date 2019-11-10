@@ -101,15 +101,17 @@
                   <li><b>Forandring på kalender.html:</b> Mye av det visuelle på denne siden ble endret. Vi ble enige om å prioritere et oversiktlig oppsett med en kalender framfor å inkludere mye bilder og tekst. Hensikten med siden er først og fremst å være informativ, så vi valgte å sløyfe unødvendig pynt. I boksen med “sosialt” endte vi opp med kun en lenke til sosialt-siden, ettersom Reka ikke hadde noe særlig planlagt for nærmeste framtid som vi kunne ta med.</li><br>
                   <li><b>Forandring på kampreferat.html:</b> Referatene ble endret til å følge den generelle layouten vi innførte, i tillegg til tilskuddet av “les mer” knappene.</li><br>
                   <li><b>Forandring på tabell.html:</b> Ettersom skissen av denne siden inneholdt en tabell som var ren kopi av TSFF sin tabell på deres nettside, synes vi det var lurt å heller lage et eget nytt og mer tilpasset design. Vi valgte også å korte ned tabellen, men tok med link til TSFF sin tabell så spesielt interesserte kunne se hele tabellen om ønskelig. </li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
-                  <li><b></li><br>
+                  <li><b>Forandring på spillere.html/stab.html:</b> Vi innså at designet som var illustrert i P2 ble for kjedelig, og valgte derfor å plassere spillerne i diverse “divs” for å kunne style sidene mer. Dermed kunne vi prøve oss fram med ulike design helt til vi (og klienten) var fornøyde.</li><br>
+                  <li><b>Ny html-fil kontakt.html:</b> Dette var en side som egentlig skulle være en javascript pop-up funksjon, men på grunn av at det er svært mye mer oversiktlig og penere å ha dette i en egen side, så ble dette gjort. Her kan man sende inn navn, email, hva forespørselen gjelder og en kort beskrivelse av forespørselen, akkurat det som var planlagt i pop-up’en.</li><br>
+                  <li><b>Ny html-fil Bekreft.html:</b> Vi så det hensiktsmessig med en egen side som bekreftet at innsendingen var mottatt. Alt for mange sider følger ikke dette prinsippet, og det er dermed vanskelig å vite om meldingen faktisk er mottatt eller ikke. Dette kunne også blitt løst ved en javascript-popup, men ble ikke gjort i dette tilfellet.  </li><br>
+                  <li><b>Forandring på change_language.js:</b> Hensikten var å ha en knapp der man kunne trykke på en knapp for å forandre språket til alle sidene til engelsk, for så å kunne forandre det tilbake til norsk. Dette var viktig ettersom det er flere engelskspråklige mennesker på linja. Likevel ble ikke dette implementert ettersom det ville bydd på svært mye oversettingsoppgaver fra vår side, og ikke gikk direkte på utformingen av nettsiden. Vi lagde derfor heller en darkmode.js for å fremdeles opprettholde kravet om 4 javascript-funksjoner, og ikke minst fører dette til mer relevant programmering fremfor oversettelsesarbeid.</li><br>
+                  <li><b>Forandring på popup.js:</b> Ble endret fra en javascript funksjon som skulle være en egen pop-up til en egen kontakt.html side. Dette ble gjort fordi vi så det ikke hensiktsmessig med en pop-up som ble værende på siden. Det ble veldig stygt med en form som pop-up, og det skapte også vanskeligheter om dette skulle være en pop-up på hver eneste side, som var planen. Vi la det derfor i en egen html-fil, og valgte å løse javascript-kravet på andre måter.</li><br>
+                  <li><b>Forandring på logo_wiggle.js:</b> Før var tanken at når man holder musen over rekalogoen skal linken vises som aktiv ved at reka beveger på seg (animasjon), om det lar seg gjøre på en fin måte. Rekalogoen er fortsatt en lenke, men vi tenkte det var enda mer spennende om logoen bevegde seg når du scrollet. </li><br>
+                  <li><b>Forandring på slideshow.js:</b> På P2 står det “bilde 1 av n” øverst i venstre hjørnet. Dette er ikke med på det endelige slideshowet.</li><br>
+                  <li><b>Ny JavaScript-fil include.js:</b> For å unngå å skrive inn html-kode for navigasjonsbaren og footer i hver fil, lagde vi include.js som importeres til hver side. Dette hjelper med å oppfylle kravet om modularitet.</li><br>
+                  <li><b>Ny JavaScript-fil Sticky_navbar.js:</b> Vi ønsket at navigasjonsbaren skulle følge med når brukere scroller nedover, slik at navigering gjennom nettsiden alltid er 100% tilgjengelig. For å implementere dette fant vi ut at det var nødvendig med et script som endret navigasjonsbarens styling når det scrolles, blant annet ved å endre til “position:fixed”.</li><br>
+                  <li><b>Ny Javascript-fil read_more.js:</b> For å kunne vise bare innledningen når man går inn på siden, men også kunne velge å lese mer har vi laget en js-fil som gjør dette mulig. Man kan velge både “les mer” og “les mindre”.</li><br>
+                  <li><b>Forandring på style.css:</b> Vi har endret ganske mye på stylinga i forhold til det som sto i P2. Fargene er endra slik at de er litt sterkere, og derfor er også de fleste fontene hvite. På h2 har vi også skygge for å gjøre teksten tydeligere og mer lettlest. Der hvor bakgrunnsfargen blir veldig lys, er fonten mørk. Vi har også lagt inn en mørkere bakrunnsfarge rundt innholdsdelene på siden, og rundet av hjørner på alle “bokser” på alle sidene. Vi har også lagt inn overskrifter på alle sidene, noe som ikke var inkludert i P2. I CCS ble vi nødt til å legge til veldig mange elementer som ikke var inkludert i P2, ettersom vi på den tiden ikke kunne alle de brukte kommandoene og dermed ikke visste hvordan det ville se ut om vi skulle planlagt alt nøyaktig. For å se elementene som er lagt til er det best å bare se gjennom CSS-filen for å finne blant annet de endelige fargekodene og størrelsene.</li><br>
               <p></p>
 
               </section>
@@ -149,6 +151,7 @@
                       <li>logo_wiggle.js</li>
                       <li>read_more.js</li>
                       <li>resize_pic.js</li>
+                      <li>slideshow.js</li>
                       <li>sticky_navbar</li>
                     </ul>
                   </li>
