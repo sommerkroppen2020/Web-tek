@@ -64,7 +64,6 @@ header{
 
 .mySlides{
   width: 800px;
-  float: center;
   height: auto;
   padding: 0;
   margin:auto;
@@ -133,7 +132,6 @@ section{
 /* Mye hentet fra https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 /* Slideshow container */
 .slideshow-container {
-  float: center;
   height: 800px;
 }
 
@@ -370,7 +368,6 @@ li a.active {
 
 /*For kontakt.html*/
 .container{
-  float: center;
   border-radius: 20px;
   background-color: #e280b0;
   width: 800px;
@@ -380,12 +377,12 @@ li a.active {
 }
 
 .form{
-  float: center;
   text-decoration: none;
 
 }
 
 #forms{
+  position: relative;
   width: 80%;
   padding: 20px;
   border-radius: 20px;
@@ -440,7 +437,7 @@ p #omoss{
 
 
 /*Media-queries*/
-@media screen and (max-width: 80%){
+@media screen and (max-width: 640px){
     .nav{
         position: absolute;
         float: none;
@@ -507,7 +504,7 @@ iframe {
 }
 
 table {
-  border-spacing: 1;
+  border-spacing: 1px;
   border-collapse: collapse;
   background: white;
   border-radius: 20px;
@@ -628,7 +625,7 @@ tbody tr:hover {
   background-color: #ffdf32;
 }
 
-#sølv {
+#solv {
   background-color: #c4cace;
 }
 
