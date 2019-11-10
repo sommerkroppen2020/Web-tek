@@ -374,6 +374,7 @@ li a.active {
   margin: auto;
   padding: 50px;
   border: 2px solid black;
+  text-align: center;
 }
 
 .form{
@@ -382,8 +383,6 @@ li a.active {
 }
 
 #forms{
-  position: relative;
-  width: 80%;
   padding: 20px;
   border-radius: 20px;
   margin: 20px;
